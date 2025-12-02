@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load resources from JSON file
 async function loadResources() {
     try {
-        const response = await fetch('resources_clean.json');
+        const response = await fetch(/EduResource_Hub/resources_clean.json);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -340,3 +340,4 @@ searchInput.addEventListener('focus', function() {
 searchInput.addEventListener('blur', function() {
     this.placeholder = "Search for resources, subjects, or topics...";
 });
+
