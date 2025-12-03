@@ -1,250 +1,196 @@
-// Global variables
+// EduResource Hub - Main Logic
+
+// Global State
 let allResources = [];
 let filteredResources = [];
 let currentSearch = '';
-let currentFilters = {
-    category: '',
-    type: '',
-    access: ''
+let currentFilters = { category: '', type: '', access: '' };
+
+// DOM Elements
+const elements = {
+    searchInput: document.getElementById('search-input'),
+    categoryFilter: document.getElementById('category-filter'),
+    typeFilter: document.getElementById('type-filter'),
+    accessFilter: document.getElementById('access-filter'),
+    clearBtn: document.getElementById('clear-filters'),
+    grid: document.getElementById('resources-grid'),
+    resultsCount: document.getElementById('results-count'),
+    loading: document.getElementById('loading'),
+    noResults: document.getElementById('no-results'),
+    statsResources: document.getElementById('stat-total-resources'),
+    statsCategories: document.getElementById('stat-total-categories')
 };
 
-// DOM elements
-const searchInput = document.getElementById('search-input');
-const categoryFilter = document.getElementById('category-filter');
-const typeFilter = document.getElementById('type-filter');
-const accessFilter = document.getElementById('access-filter');
-const clearFiltersBtn = document.getElementById('clear-filters');
-const resourcesGrid = document.getElementById('resources-grid');
-const resultsCount = document.getElementById('results-count');
-const loadingDiv = document.getElementById('loading');
-const noResultsDiv = document.getElementById('no-results');
-
-// Initialize the app
-document.addEventListener('DOMContentLoaded', function() {
-    loadResources();
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    fetchResources();
     setupEventListeners();
 });
 
-// Load resources from JSON file
-async function loadResources() {
+// Fetch Data
+async function fetchResources() {
     try {
-        // Fetch the local JSON file
+        // Fetching the cleaned JSON file
         const response = await fetch('resources_clean.json');
         
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
+        if (!response.ok) throw new Error('Failed to load resources');
+        
         allResources = await response.json();
         
-        // Validate that we have an array
-        if (!Array.isArray(allResources)) {
-            throw new Error('Resources data is not in expected array format');
-        }
-
+        // Initial setup
         filteredResources = [...allResources];
-        
-        // Update stats elements if they exist
-        const totalResourcesSpan = document.getElementById('total-resources');
-        const totalCategoriesSpan = document.getElementById('total-categories');
-        
-        if (totalResourcesSpan && totalCategoriesSpan) {
-            const categories = new Set(allResources.map(resource => resource.Category));
-            totalResourcesSpan.textContent = allResources.length.toLocaleString();
-            totalCategoriesSpan.textContent = categories.size;
-        }
-        
-        // Populate filters
+        updateStats();
         populateFilters();
-        
-        // Display resources
-        displayResources();
+        renderResources();
         
     } catch (error) {
-        console.error('Error loading resources:', error);
-        if (loadingDiv) {
-            loadingDiv.innerHTML = `
-                <div style="text-align: center; color: #ef4444; padding: 20px;">
-                    <i class="fas fa-exclamation-triangle" style="font-size: 30px; margin-bottom: 10px;"></i>
-                    <h3>Error loading resources</h3>
-                    <p>Could not load <code>resources_clean.json</code>.</p>
-                    <p>Ensure you ran the cleanup script and pushed the JSON file to GitHub.</p>
-                </div>
-            `;
-        }
+        console.error('Error:', error);
+        elements.loading.innerHTML = `
+            <div style="color: #EF4444;">
+                <i class="fas fa-exclamation-circle fa-2x"></i>
+                <p>Failed to load resources. Please try refreshing.</p>
+                <small>${error.message}</small>
+            </div>
+        `;
     }
 }
 
-// Populate filter dropdowns
+// Stats
+function updateStats() {
+    if (elements.statsResources) {
+        elements.statsResources.textContent = allResources.length;
+    }
+    if (elements.statsCategories) {
+        const uniqueCategories = new Set(allResources.map(r => r.Category));
+        elements.statsCategories.textContent = uniqueCategories.size;
+    }
+}
+
+// Populate Filters
 function populateFilters() {
-    if (!allResources.length) return;
-
-    const categories = [...new Set(allResources.map(resource => resource.Category || 'Other'))].sort();
-    const types = [...new Set(allResources.map(resource => resource.Type || 'Other'))].sort();
-    const accessTypes = [...new Set(allResources.map(resource => resource['Access type'] || 'Other'))].sort();
-
-    if (categoryFilter) populateSelect(categoryFilter, categories);
-    if (typeFilter) populateSelect(typeFilter, types);
-    if (accessFilter) populateSelect(accessFilter, accessTypes);
+    const getOptions = (key) => [...new Set(allResources.map(r => r[key] || 'Other'))].sort();
+    
+    fillSelect(elements.categoryFilter, getOptions('Category'));
+    fillSelect(elements.typeFilter, getOptions('Type'));
+    fillSelect(elements.accessFilter, getOptions('Access type'));
 }
 
-// Helper function to populate select elements
-function populateSelect(selectElement, options) {
-    // Keep the default "All" option
-    const defaultOption = selectElement.options[0];
-    selectElement.innerHTML = '';
-    selectElement.appendChild(defaultOption);
-    
-    options.forEach(option => {
-        const optionElement = document.createElement('option');
-        optionElement.value = option;
-        optionElement.textContent = option;
-        selectElement.appendChild(optionElement);
+function fillSelect(select, options) {
+    if (!select) return;
+    const defaultText = select.options[0].text;
+    select.innerHTML = `<option value="">${defaultText}</option>`;
+    options.forEach(opt => {
+        const option = document.createElement('option');
+        option.value = opt;
+        option.textContent = opt;
+        select.appendChild(option);
     });
 }
 
-// Setup event listeners
+// Event Listeners
 function setupEventListeners() {
-    if (searchInput) {
-        let searchTimeout;
-        searchInput.addEventListener('input', function() {
-            clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
-                currentSearch = this.value.toLowerCase();
-                filterAndDisplayResources();
-            }, 300);
-        });
-    }
-
-    if (categoryFilter) {
-        categoryFilter.addEventListener('change', function() {
-            currentFilters.category = this.value;
-            filterAndDisplayResources();
-        });
-    }
-
-    if (typeFilter) {
-        typeFilter.addEventListener('change', function() {
-            currentFilters.type = this.value;
-            filterAndDisplayResources();
-        });
-    }
-
-    if (accessFilter) {
-        accessFilter.addEventListener('change', function() {
-            currentFilters.access = this.value;
-            filterAndDisplayResources();
-        });
-    }
-
-    if (clearFiltersBtn) {
-        clearFiltersBtn.addEventListener('click', function() {
-            if (searchInput) searchInput.value = '';
-            if (categoryFilter) categoryFilter.value = '';
-            if (typeFilter) typeFilter.value = '';
-            if (accessFilter) accessFilter.value = '';
-            currentSearch = '';
-            currentFilters = { category: '', type: '', access: '' };
-            filterAndDisplayResources();
-        });
-    }
-}
-
-// Filter and display resources
-function filterAndDisplayResources() {
-    filteredResources = allResources.filter(resource => {
-        // Search filter
-        if (currentSearch) {
-            const searchableText = [
-                resource['Title/Name'],
-                resource['Short Description'],
-                resource["Why it's useful for students"],
-                resource.Category,
-                resource.Type
-            ].join(' ').toLowerCase();
-            
-            if (!searchableText.includes(currentSearch)) {
-                return false;
-            }
-        }
-
-        // Dropdown filters
-        if (currentFilters.category && resource.Category !== currentFilters.category) return false;
-        if (currentFilters.type && resource.Type !== currentFilters.type) return false;
-        if (currentFilters.access && resource['Access type'] !== currentFilters.access) return false;
-
-        return true;
+    // Search with Debounce
+    let timeout;
+    elements.searchInput?.addEventListener('input', (e) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+            currentSearch = e.target.value.toLowerCase();
+            applyFilters();
+        }, 300);
     });
 
-    displayResources();
+    // Dropdowns
+    const handleFilter = (key, val) => {
+        currentFilters[key] = val;
+        applyFilters();
+    };
+
+    elements.categoryFilter?.addEventListener('change', (e) => handleFilter('category', e.target.value));
+    elements.typeFilter?.addEventListener('change', (e) => handleFilter('type', e.target.value));
+    elements.accessFilter?.addEventListener('change', (e) => handleFilter('access', e.target.value));
+
+    // Clear Button
+    elements.clearBtn?.addEventListener('click', () => {
+        currentSearch = '';
+        currentFilters = { category: '', type: '', access: '' };
+        
+        elements.searchInput.value = '';
+        elements.categoryFilter.value = '';
+        elements.typeFilter.value = '';
+        elements.accessFilter.value = '';
+        
+        applyFilters();
+    });
 }
 
-// Display resources in the grid
-function displayResources() {
-    if (loadingDiv) loadingDiv.style.display = 'none';
+// Filter Logic
+function applyFilters() {
+    filteredResources = allResources.filter(item => {
+        // Search matches Title, Desc, or Category
+        const matchSearch = !currentSearch || 
+            (item['Title/Name']?.toLowerCase().includes(currentSearch)) ||
+            (item['Short Description']?.toLowerCase().includes(currentSearch)) ||
+            (item['Category']?.toLowerCase().includes(currentSearch));
+
+        const matchCat = !currentFilters.category || item.Category === currentFilters.category;
+        const matchType = !currentFilters.type || item.Type === currentFilters.type;
+        const matchAccess = !currentFilters.access || item['Access type'] === currentFilters.access;
+
+        return matchSearch && matchCat && matchType && matchAccess;
+    });
+
+    renderResources();
+}
+
+// Render Logic
+function renderResources() {
+    elements.loading.style.display = 'none';
     
-    if (resultsCount) {
-        resultsCount.textContent = `${filteredResources.length} resource${filteredResources.length !== 1 ? 's' : ''} found`;
+    // Update count
+    if(elements.resultsCount) {
+        elements.resultsCount.textContent = `${filteredResources.length} Found`;
     }
 
+    // Empty State
     if (filteredResources.length === 0) {
-        if (resourcesGrid) resourcesGrid.style.display = 'none';
-        if (noResultsDiv) noResultsDiv.style.display = 'block';
+        elements.grid.style.display = 'none';
+        elements.noResults.style.display = 'block';
         return;
     }
 
-    if (noResultsDiv) noResultsDiv.style.display = 'none';
-    if (resourcesGrid) {
-        resourcesGrid.style.display = 'grid';
-        resourcesGrid.innerHTML = filteredResources.map(resource => createResourceCard(resource)).join('');
-    }
-}
-
-// Create individual resource card
-function createResourceCard(resource) {
-    const title = resource['Title/Name'] || 'Untitled Resource';
-    const category = resource.Category || 'Uncategorized';
-    const type = resource.Type || 'Unknown';
-    const accessType = resource['Access type'] || 'Unknown';
-    const description = resource['Short Description'] || '';
-    const whyUseful = resource["Why it's useful for students"] || '';
-    const link = resource.Link || '#';
-
-    return `
-        <div class="resource-card" onclick="window.open('${link}', '_blank')">
+    elements.noResults.style.display = 'none';
+    elements.grid.style.display = 'grid';
+    
+    // Render Cards
+    elements.grid.innerHTML = filteredResources.map(resource => {
+        // NOTE: We use the cleaned key 'WhyUseful' or fallback to original style if script wasn't run perfectly
+        const whyUseful = resource.WhyUseful || resource["Why it's useful for students"] || "Check details for more info.";
+        
+        return `
+        <article class="resource-card">
             <div class="resource-header">
-                <div>
-                    <h3 class="resource-title">
-                        <a href="${link}" target="_blank" class="resource-link" onclick="event.stopPropagation()">
-                            ${title}
-                        </a>
-                    </h3>
+                <div class="resource-tags">
+                    <span class="tag tag-cat">${resource.Category}</span>
+                    <span class="tag tag-type">${resource.Type}</span>
+                    <span class="tag tag-access">${resource['Access type']}</span>
                 </div>
+                <h3 class="resource-title">
+                    <a href="${resource.Link}" target="_blank" rel="noopener noreferrer">${resource['Title/Name']}</a>
+                </h3>
             </div>
             
-            <div class="resource-tags">
-                <span class="tag tag-category">${category}</span>
-                <span class="tag tag-type">${type}</span>
-                <span class="tag tag-access">${accessType}</span>
+            <p class="resource-desc">${resource['Short Description']}</p>
+            
+            <div class="resource-why">
+                <strong>Why it's useful:</strong> ${whyUseful}
             </div>
-            
-            ${description ? `<div class="resource-description">${description}</div>` : ''}
-            
-            ${whyUseful ? `<div class="resource-why"><strong>Why it's useful:</strong> ${whyUseful}</div>` : ''}
             
             <div class="resource-footer">
-                <a href="${link}" target="_blank" class="external-link" onclick="event.stopPropagation()">
+                <a href="${resource.Link}" target="_blank" rel="noopener noreferrer" class="visit-btn">
                     Visit Resource <i class="fas fa-external-link-alt"></i>
                 </a>
             </div>
-        </div>
-    `;
+        </article>
+        `;
+    }).join('');
 }
-
-// Keyboard shortcut
-document.addEventListener('keydown', function(e) {
-    if (e.key === '/' && !e.ctrlKey && !e.metaKey && searchInput) {
-        e.preventDefault();
-        searchInput.focus();
-    }
-});
