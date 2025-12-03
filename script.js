@@ -16,8 +16,6 @@ const accessFilter = document.getElementById('access-filter');
 const clearFiltersBtn = document.getElementById('clear-filters');
 const resourcesGrid = document.getElementById('resources-grid');
 const resultsCount = document.getElementById('results-count');
-const totalResourcesSpan = document.getElementById('total-resources');
-const totalCategoriesSpan = document.getElementById('total-categories');
 const loadingDiv = document.getElementById('loading');
 const noResultsDiv = document.getElementById('no-results');
 
@@ -30,7 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load resources from JSON file
 async function loadResources() {
     try {
-const response = await fetch('https://raw.githubusercontent.com/amarjaleelbanbhan/EduResource_Hub/main/resources_clean.json');        }
+        // FIXED: Fetch local file instead of remote GitHub URL to avoid CORS/Network errors
+        const response = await fetch('resources_clean.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
         allResources = await response.json();
         
         // Validate that we have an array
@@ -40,8 +44,15 @@ const response = await fetch('https://raw.githubusercontent.com/amarjaleelbanbha
 
         filteredResources = [...allResources];
         
-        // Update stats
-        updateStats();
+        // Update stats (if elements exist)
+        const totalResourcesSpan = document.getElementById('total-resources');
+        const totalCategoriesSpan = document.getElementById('total-categories');
+        
+        if (totalResourcesSpan && totalCategoriesSpan) {
+            const categories = new Set(allResources.map(resource => resource.Category));
+            totalResourcesSpan.textContent = allResources.length.toLocaleString();
+            totalCategoriesSpan.textContent = categories.size;
+        }
         
         // Populate filters
         populateFilters();
@@ -51,36 +62,37 @@ const response = await fetch('https://raw.githubusercontent.com/amarjaleelbanbha
         
     } catch (error) {
         console.error('Error loading resources:', error);
-        loadingDiv.innerHTML = `
-            <i class="fas fa-exclamation-triangle"></i>
-            <h3>Error loading resources</h3>
-            <p>There was an error loading the resources. Please check the console for details.</p>
-        `;
+        if (loadingDiv) {
+            loadingDiv.innerHTML = `
+                <div style="color: red; padding: 20px;">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 40px; margin-bottom: 10px;"></i>
+                    <h3>Error loading resources</h3>
+                    <p>${error.message}</p>
+                    <p>Make sure 'resources_clean.json' exists in the same folder.</p>
+                </div>
+            `;
+        }
     }
-}
-
-// Update statistics
-function updateStats() {
-    const categories = new Set(allResources.map(resource => resource.Category));
-    totalResourcesSpan.textContent = allResources.length.toLocaleString();
-    totalCategoriesSpan.textContent = categories.size;
 }
 
 // Populate filter dropdowns
 function populateFilters() {
-    const categories = [...new Set(allResources.map(resource => resource.Category))].sort();
-    const types = [...new Set(allResources.map(resource => resource.Type))].sort();
-    const accessTypes = [...new Set(allResources.map(resource => resource['Access type']))].sort();
+    // Safety check for empty data
+    if (!allResources.length) return;
 
-    populateSelect(categoryFilter, categories);
-    populateSelect(typeFilter, types);
-    populateSelect(accessFilter, accessTypes);
+    const categories = [...new Set(allResources.map(resource => resource.Category || 'Other'))].sort();
+    const types = [...new Set(allResources.map(resource => resource.Type || 'Other'))].sort();
+    const accessTypes = [...new Set(allResources.map(resource => resource['Access type'] || 'Other'))].sort();
+
+    if (categoryFilter) populateSelect(categoryFilter, categories);
+    if (typeFilter) populateSelect(typeFilter, types);
+    if (accessFilter) populateSelect(accessFilter, accessTypes);
 }
 
 // Helper function to populate select elements
 function populateSelect(selectElement, options) {
     // Keep the default "All" option
-    const defaultOption = selectElement.children[0];
+    const defaultOption = selectElement.options[0];
     selectElement.innerHTML = '';
     selectElement.appendChild(defaultOption);
     
@@ -94,6 +106,8 @@ function populateSelect(selectElement, options) {
 
 // Setup event listeners
 function setupEventListeners() {
+    if (!searchInput) return;
+
     // Search input with debouncing
     let searchTimeout;
     searchInput.addEventListener('input', function() {
@@ -105,45 +119,39 @@ function setupEventListeners() {
     });
 
     // Filter dropdowns
-    categoryFilter.addEventListener('change', function() {
-        currentFilters.category = this.value;
-        filterAndDisplayResources();
-    });
+    if (categoryFilter) {
+        categoryFilter.addEventListener('change', function() {
+            currentFilters.category = this.value;
+            filterAndDisplayResources();
+        });
+    }
 
-    typeFilter.addEventListener('change', function() {
-        currentFilters.type = this.value;
-        filterAndDisplayResources();
-    });
+    if (typeFilter) {
+        typeFilter.addEventListener('change', function() {
+            currentFilters.type = this.value;
+            filterAndDisplayResources();
+        });
+    }
 
-    accessFilter.addEventListener('change', function() {
-        currentFilters.access = this.value;
-        filterAndDisplayResources();
-    });
+    if (accessFilter) {
+        accessFilter.addEventListener('change', function() {
+            currentFilters.access = this.value;
+            filterAndDisplayResources();
+        });
+    }
 
     // Clear filters button
-    clearFiltersBtn.addEventListener('click', function() {
-        searchInput.value = '';
-        categoryFilter.value = '';
-        typeFilter.value = '';
-        accessFilter.value = '';
-        currentSearch = '';
-        currentFilters = { category: '', type: '', access: '' };
-        filterAndDisplayResources();
-    });
-
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
+    if (clearFiltersBtn) {
+        clearFiltersBtn.addEventListener('click', function() {
+            searchInput.value = '';
+            if (categoryFilter) categoryFilter.value = '';
+            if (typeFilter) typeFilter.value = '';
+            if (accessFilter) accessFilter.value = '';
+            currentSearch = '';
+            currentFilters = { category: '', type: '', access: '' };
+            filterAndDisplayResources();
         });
-    });
+    }
 }
 
 // Filter and display resources
@@ -187,22 +195,24 @@ function filterAndDisplayResources() {
 
 // Display resources in the grid
 function displayResources() {
-    loadingDiv.style.display = 'none';
+    if (loadingDiv) loadingDiv.style.display = 'none';
     
     // Update results count
-    resultsCount.textContent = `${filteredResources.length} resource${filteredResources.length !== 1 ? 's' : ''} found`;
+    if (resultsCount) {
+        resultsCount.textContent = `${filteredResources.length} resource${filteredResources.length !== 1 ? 's' : ''} found`;
+    }
 
     if (filteredResources.length === 0) {
-        resourcesGrid.style.display = 'none';
-        noResultsDiv.style.display = 'block';
+        if (resourcesGrid) resourcesGrid.style.display = 'none';
+        if (noResultsDiv) noResultsDiv.style.display = 'block';
         return;
     }
 
-    noResultsDiv.style.display = 'none';
-    resourcesGrid.style.display = 'grid';
-
-    // Create resource cards
-    resourcesGrid.innerHTML = filteredResources.map(resource => createResourceCard(resource)).join('');
+    if (noResultsDiv) noResultsDiv.style.display = 'none';
+    if (resourcesGrid) {
+        resourcesGrid.style.display = 'grid';
+        resourcesGrid.innerHTML = filteredResources.map(resource => createResourceCard(resource)).join('');
+    }
 }
 
 // Create individual resource card
@@ -215,7 +225,7 @@ function createResourceCard(resource) {
     const whyUseful = resource["Why it's useful for students"] || '';
     const link = resource.Link || '#';
 
-    // Clean up escaped quotes in the data
+    // Clean up escaped quotes in the data if they exist
     const cleanDescription = description.replace(/\\"/g, '"').replace(/\\'/g, "'");
     const cleanWhyUseful = whyUseful.replace(/\\"/g, '"').replace(/\\'/g, "'");
 
@@ -250,98 +260,10 @@ function createResourceCard(resource) {
     `;
 }
 
-// Add some utility functions for better UX
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
-
-// Add scroll-to-top functionality
-function addScrollToTop() {
-    // Create scroll to top button
-    const scrollBtn = document.createElement('button');
-    scrollBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
-    scrollBtn.className = 'scroll-to-top';
-    scrollBtn.style.cssText = `
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background: #2563eb;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-        display: none;
-        z-index: 1000;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        transition: all 0.3s ease;
-    `;
-    
-    document.body.appendChild(scrollBtn);
-    
-    scrollBtn.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-    
-    // Show/hide scroll button
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            scrollBtn.style.display = 'flex';
-            scrollBtn.style.alignItems = 'center';
-            scrollBtn.style.justifyContent = 'center';
-        } else {
-            scrollBtn.style.display = 'none';
-        }
-    });
-}
-
-// Initialize scroll to top functionality
-document.addEventListener('DOMContentLoaded', addScrollToTop);
-
-// Add keyboard shortcuts
+// Keyboard shortcuts
 document.addEventListener('keydown', function(e) {
-    // Focus search input when pressing '/'
-    if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey && searchInput) {
         e.preventDefault();
         searchInput.focus();
     }
-    
-    // Clear search when pressing Escape
-    if (e.key === 'Escape' && document.activeElement === searchInput) {
-        searchInput.blur();
-        if (searchInput.value) {
-            searchInput.value = '';
-            currentSearch = '';
-            filterAndDisplayResources();
-        }
-    }
 });
-
-// Add search hint
-searchInput.addEventListener('focus', function() {
-    if (!this.dataset.hintShown) {
-        this.placeholder = "Try searching for subjects like 'math', 'science', or 'art'...";
-        this.dataset.hintShown = 'true';
-    }
-});
-
-searchInput.addEventListener('blur', function() {
-    this.placeholder = "Search for resources, subjects, or topics...";
-});
-
-
-
-
-
-
-
-
