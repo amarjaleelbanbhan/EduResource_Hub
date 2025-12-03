@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load resources from JSON file
 async function loadResources() {
     try {
-        // FIXED: Fetch local file instead of remote GitHub URL to avoid CORS/Network errors
+        // FIXED: Use relative path for GitHub Pages
         const response = await fetch('resources_clean.json');
         
         if (!response.ok) {
@@ -44,15 +44,8 @@ async function loadResources() {
 
         filteredResources = [...allResources];
         
-        // Update stats (if elements exist)
-        const totalResourcesSpan = document.getElementById('total-resources');
-        const totalCategoriesSpan = document.getElementById('total-categories');
-        
-        if (totalResourcesSpan && totalCategoriesSpan) {
-            const categories = new Set(allResources.map(resource => resource.Category));
-            totalResourcesSpan.textContent = allResources.length.toLocaleString();
-            totalCategoriesSpan.textContent = categories.size;
-        }
+        // Update stats
+        updateStats();
         
         // Populate filters
         populateFilters();
@@ -64,20 +57,32 @@ async function loadResources() {
         console.error('Error loading resources:', error);
         if (loadingDiv) {
             loadingDiv.innerHTML = `
-                <div style="color: red; padding: 20px;">
-                    <i class="fas fa-exclamation-triangle" style="font-size: 40px; margin-bottom: 10px;"></i>
+                <div style="text-align: center; color: #ef4444; padding: 20px;">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 30px; margin-bottom: 10px;"></i>
                     <h3>Error loading resources</h3>
-                    <p>${error.message}</p>
-                    <p>Make sure 'resources_clean.json' exists in the same folder.</p>
+                    <p>Could not load <code>resources_clean.json</code>.</p>
+                    <p>Please make sure this file is committed to your GitHub repository.</p>
                 </div>
             `;
         }
     }
 }
 
+// Update statistics
+function updateStats() {
+    const totalResourcesSpan = document.getElementById('total-resources');
+    const totalCategoriesSpan = document.getElementById('total-categories');
+
+    // Only update if elements exist on the page
+    if (totalResourcesSpan && totalCategoriesSpan) {
+        const categories = new Set(allResources.map(resource => resource.Category));
+        totalResourcesSpan.textContent = allResources.length.toLocaleString();
+        totalCategoriesSpan.textContent = categories.size;
+    }
+}
+
 // Populate filter dropdowns
 function populateFilters() {
-    // Safety check for empty data
     if (!allResources.length) return;
 
     const categories = [...new Set(allResources.map(resource => resource.Category || 'Other'))].sort();
@@ -91,7 +96,6 @@ function populateFilters() {
 
 // Helper function to populate select elements
 function populateSelect(selectElement, options) {
-    // Keep the default "All" option
     const defaultOption = selectElement.options[0];
     selectElement.innerHTML = '';
     selectElement.appendChild(defaultOption);
@@ -106,19 +110,17 @@ function populateSelect(selectElement, options) {
 
 // Setup event listeners
 function setupEventListeners() {
-    if (!searchInput) return;
+    if (searchInput) {
+        let searchTimeout;
+        searchInput.addEventListener('input', function() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                currentSearch = this.value.toLowerCase();
+                filterAndDisplayResources();
+            }, 300);
+        });
+    }
 
-    // Search input with debouncing
-    let searchTimeout;
-    searchInput.addEventListener('input', function() {
-        clearTimeout(searchTimeout);
-        searchTimeout = setTimeout(() => {
-            currentSearch = this.value.toLowerCase();
-            filterAndDisplayResources();
-        }, 300);
-    });
-
-    // Filter dropdowns
     if (categoryFilter) {
         categoryFilter.addEventListener('change', function() {
             currentFilters.category = this.value;
@@ -140,10 +142,9 @@ function setupEventListeners() {
         });
     }
 
-    // Clear filters button
     if (clearFiltersBtn) {
         clearFiltersBtn.addEventListener('click', function() {
-            searchInput.value = '';
+            if (searchInput) searchInput.value = '';
             if (categoryFilter) categoryFilter.value = '';
             if (typeFilter) typeFilter.value = '';
             if (accessFilter) accessFilter.value = '';
@@ -157,7 +158,6 @@ function setupEventListeners() {
 // Filter and display resources
 function filterAndDisplayResources() {
     filteredResources = allResources.filter(resource => {
-        // Search filter
         if (currentSearch) {
             const searchableText = [
                 resource['Title/Name'],
@@ -167,25 +167,12 @@ function filterAndDisplayResources() {
                 resource.Type
             ].join(' ').toLowerCase();
             
-            if (!searchableText.includes(currentSearch)) {
-                return false;
-            }
+            if (!searchableText.includes(currentSearch)) return false;
         }
 
-        // Category filter
-        if (currentFilters.category && resource.Category !== currentFilters.category) {
-            return false;
-        }
-
-        // Type filter
-        if (currentFilters.type && resource.Type !== currentFilters.type) {
-            return false;
-        }
-
-        // Access type filter
-        if (currentFilters.access && resource['Access type'] !== currentFilters.access) {
-            return false;
-        }
+        if (currentFilters.category && resource.Category !== currentFilters.category) return false;
+        if (currentFilters.type && resource.Type !== currentFilters.type) return false;
+        if (currentFilters.access && resource['Access type'] !== currentFilters.access) return false;
 
         return true;
     });
@@ -197,7 +184,6 @@ function filterAndDisplayResources() {
 function displayResources() {
     if (loadingDiv) loadingDiv.style.display = 'none';
     
-    // Update results count
     if (resultsCount) {
         resultsCount.textContent = `${filteredResources.length} resource${filteredResources.length !== 1 ? 's' : ''} found`;
     }
@@ -225,7 +211,7 @@ function createResourceCard(resource) {
     const whyUseful = resource["Why it's useful for students"] || '';
     const link = resource.Link || '#';
 
-    // Clean up escaped quotes in the data if they exist
+    // Clean up escaped quotes in the data
     const cleanDescription = description.replace(/\\"/g, '"').replace(/\\'/g, "'");
     const cleanWhyUseful = whyUseful.replace(/\\"/g, '"').replace(/\\'/g, "'");
 
