@@ -335,7 +335,7 @@ All derived from:
 
 **Last Updated:** December 7, 2025  
 **Analysis Version:** 1.0  
-**Repository:** Aurangzaib-B/EduResource_Hub  
+**Repository:** /EduResource_Hub  
 **Status:** ✅ Complete
 
 For the complete technical analysis, see `REPOSITORY_ANALYSIS.json`.
