@@ -121,6 +121,23 @@ function setupEventListeners() {
         
         applyFilters();
     });
+    
+    // Keyboard Shortcuts
+    document.addEventListener('keydown', (e) => {
+        // Focus search on '/' key (unless already focused on an input)
+        if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+            e.preventDefault();
+            elements.searchInput?.focus();
+        }
+        
+        // Clear search on Escape key when search is focused
+        if (e.key === 'Escape' && document.activeElement === elements.searchInput) {
+            elements.searchInput.value = '';
+            currentSearch = '';
+            applyFilters();
+            elements.searchInput.blur();
+        }
+    });
 }
 
 // Filter Logic
@@ -163,8 +180,7 @@ function renderResources() {
     
     // Render Cards
     elements.grid.innerHTML = filteredResources.map(resource => {
-        // NOTE: We use the cleaned key 'WhyUseful' or fallback to original style if script wasn't run perfectly
-        const whyUseful = resource.WhyUseful || resource["Why it's useful for students"] || "Check details for more info.";
+        const whyUseful = resource["Why it's useful for students"] || "Check details for more info.";
         
         return `
         <article class="resource-card">
