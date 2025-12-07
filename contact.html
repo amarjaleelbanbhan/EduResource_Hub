@@ -26,17 +26,27 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="nav-logo">
-            <i class="fas fa-book"></i>
-            <span class="nav-logo-text">EduResource Hub</span>
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <i class="fas fa-graduation-cap"></i> EduResource Hub
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="https://github.com/amarjaleelbanbhan" target="_blank" class="nav-link"><i class="fab fa-github"></i> GitHub</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
         </div>
-        <button class="nav-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
-        <ul class="nav-menu" id="navMenu">
-            <li><a href="index.html" class="nav-link">Home</a></li>
-            <li><a href="about.html" class="nav-link">About</a></li>
-            <li><a href="blog.html" class="nav-link">Blog</a></li>
-            <li><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
     </nav>
 
     <div class="container">
@@ -53,7 +63,23 @@
                     <div class="info-icon"><i class="fas fa-envelope"></i></div>
                     <div class="info-content">
                         <h3>Email</h3>
-                        <p><a href="mailto:amarjaleel@example.com">amarjaleel@example.com</a></p>
+                        <p><a href="mailto:banbhanamarjalil@gmail.com">banbhanamarjalil@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="info-content">
+                        <h3>Instagram</h3>
+                        <p><a href="https://www.instagram.com/amarjaleel_/" target="_blank">@amarjaleel_</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fab fa-linkedin"></i></div>
+                    <div class="info-content">
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://pk.linkedin.com/in/amarjaleel" target="_blank">Amar Jaleel</a></p>
                     </div>
                 </div>
 
@@ -62,14 +88,6 @@
                     <div class="info-content">
                         <h3>Location</h3>
                         <p>Pakistan</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <div class="info-icon"><i class="fas fa-phone"></i></div>
-                    <div class="info-content">
-                        <h3>Phone</h3>
-                        <p>Available for inquiries</p>
                     </div>
                 </div>
 
@@ -84,9 +102,9 @@
                 <div class="social-section">
                     <h3>Connect with Us</h3>
                     <div class="social-links">
-                        <a href="https://pk.linkedin.com/in/amarjaleel" target="_blank" title="LinkedIn" style="background-color: white; color: #0A66C2;"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/amarjaleelbanbhan" target="_blank" title="GitHub" style="background-color: white; color: #333;"><i class="fab fa-github"></i></a>
-                        <a href="https://www.instagram.com/amarjaleel_/" target="_blank" title="Instagram" style="background-color: white; color: #E4405F;"><i class="fab fa-instagram"></i></a>
+                        <a href="https://pk.linkedin.com/in/amarjaleel" target="_blank" title="LinkedIn" style="background-color: #0A66C2; color: white;"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/amarjaleelbanbhan" target="_blank" title="GitHub" style="background-color: #333; color: white;"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/amarjaleel_/" target="_blank" title="Instagram" style="background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); color: white;"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -130,18 +148,47 @@
     </footer>
 
     <script>
+        // Dark Mode Management
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Initialize theme on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            initTheme();
+            
+            // Theme toggle button
+            const themeToggle = document.getElementById('themeToggle');
+            if (themeToggle) {
+                themeToggle.addEventListener('click', toggleTheme);
+            }
+        });
+
+        // Mobile Menu Toggle Logic
         const menuToggle = document.getElementById('menuToggle');
         const navMenu = document.getElementById('navMenu');
         
-        menuToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
-        
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', () => {
-                navMenu.classList.remove('active');
+        if (menuToggle && navMenu) {
+            menuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                const icon = menuToggle.querySelector('i');
+                if (navMenu.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
             });
-        });
+        }
     </script>
 </body>
 </html>
