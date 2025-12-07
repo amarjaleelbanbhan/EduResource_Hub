@@ -20,74 +20,9 @@
     
     <title>Contact - EduResource Hub</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pages.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --primary-color: #5B63FF; --secondary-color: #0073e6; --text-dark: #1F2937; --text-light: #6B7280; --bg-light: #F9FAFB; }
-        body { font-family: 'Inter', sans-serif; color: var(--text-dark); background-color: #FFFFFF; }
-        
-        .navbar { display: flex; justify-content: space-between; align-items: center; padding: 1px 20px; background-color: #FFFFFF; position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid #E5E7EB; }
-        .nav-logo { display: flex; align-items: center; gap: 10px; font-size: 24px; font-weight: 700; }
-        .nav-logo-text { display: none; }
-        .nav-menu { display: flex; gap: 30px; align-items: center; }
-        .nav-link { text-decoration: none; color: var(--text-dark); font-weight: 500; transition: color 0.3s; }
-        .nav-link:hover { color: var(--primary-color); }
-        .nav-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--text-dark); }
-        
-        @media (max-width: 768px) {
-            .nav-logo-text { display: inline; }
-            .nav-toggle { display: block; }
-            .nav-menu { display: none; position: absolute; top: 70px; left: 0; right: 0; flex-direction: column; gap: 0; background-color: #FFFFFF; border-bottom: 1px solid #E5E7EB; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out; }
-            .nav-menu.active { display: flex; max-height: 500px; }
-            .nav-menu .nav-link { padding: 15px 20px; border-bottom: 1px solid #E5E7EB; width: 100%; }
-        }
-        
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .hero-section { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-bottom: 60px; }
-        .hero-section h1 { font-size: 48px; margin-bottom: 20px; }
-        .hero-section p { font-size: 18px; opacity: 0.9; }
-        
-        .contact-content { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 60px; }
-        .contact-info { }
-        .contact-info h2 { font-size: 28px; margin-bottom: 30px; color: var(--primary-color); }
-        .info-item { display: flex; gap: 20px; margin-bottom: 30px; }
-        .info-icon { font-size: 24px; color: var(--primary-color); min-width: 30px; }
-        .info-content h3 { font-size: 18px; margin-bottom: 5px; }
-        .info-content p { color: var(--text-light); }
-        .info-content a { color: var(--primary-color); text-decoration: none; transition: color 0.3s; }
-        .info-content a:hover { color: var(--secondary-color); }
-        
-        .contact-form { background-color: var(--bg-light); padding: 30px; border-radius: 10px; }
-        .contact-form h2 { font-size: 28px; margin-bottom: 30px; color: var(--primary-color); }
-        .form-group { margin-bottom: 20px; }
-        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-dark); }
-        .form-group input, .form-group textarea { width: 100%; padding: 12px; border: 1px solid #E5E7EB; border-radius: 5px; font-family: 'Inter', sans-serif; font-size: 16px; transition: border-color 0.3s; }
-        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--primary-color); box-shadow: 0 0 0 3px rgba(91, 99, 255, 0.1); }
-        .form-group textarea { resize: vertical; min-height: 120px; }
-        .submit-btn { background-color: var(--primary-color); color: white; padding: 12px 30px; border: none; border-radius: 5px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background-color 0.3s, transform 0.2s; }
-        .submit-btn:hover { background-color: var(--secondary-color); transform: translateY(-2px); }
-        
-        .social-section { margin-top: 40px; padding-top: 40px; border-top: 1px solid #E5E7EB; }
-        .social-section h3 { margin-bottom: 20px; color: var(--primary-color); }
-        .social-links { display: flex; gap: 20px; }
-        .social-links a { display: flex; align-items: center; justify-content: center; width: 45px; height: 45px; border-radius: 50%; background-color: var(--bg-light); color: var(--primary-color); text-decoration: none; font-size: 20px; transition: all 0.3s; }
-        .social-links a:hover { background-color: var(--primary-color); color: white; }
-        
-        footer { background-color: var(--text-dark); color: white; text-align: center; padding: 30px 20px; margin-top: 60px; }
-        footer p { margin-bottom: 15px; }
-        footer .social-links { display: flex; justify-content: center; gap: 20px; }
-        footer a { color: white; text-decoration: none; font-size: 20px; transition: color 0.3s; }
-        footer a:hover { color: var(--primary-color); }
-        
-        @media (max-width: 768px) {
-            .hero-section { padding: 40px 20px; }
-            .hero-section h1 { font-size: 32px; }
-            .hero-section p { font-size: 16px; }
-            .contact-content { grid-template-columns: 1fr; }
-            .contact-form { padding: 20px; }
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar">
