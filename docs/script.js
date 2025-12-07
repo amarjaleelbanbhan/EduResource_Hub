@@ -1,12 +1,18 @@
 // EduResource Hub - Main Logic
 
+// Configuration
+const CONFIG = {
+    DATA_SOURCE: 'resources_clean.json',
+    ITEMS_PER_PAGE: 50
+};
+
 // Global State
 let allResources = [];
 let filteredResources = [];
 let currentSearch = '';
 let currentFilters = { category: '', type: '', access: '' };
 let currentPage = 1;
-const itemsPerPage = 50;
+const itemsPerPage = CONFIG.ITEMS_PER_PAGE;
 
 // DOM Elements
 const elements = {
@@ -49,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function fetchResources() {
     try {
         // Fetching the cleaned JSON file
-        const response = await fetch('resources_clean.json');
+        const response = await fetch(CONFIG.DATA_SOURCE);
         
         if (!response.ok) throw new Error('Failed to load resources');
         

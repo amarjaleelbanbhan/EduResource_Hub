@@ -83,7 +83,7 @@
 }
 
 .mission-card {
-    background-color: white;
+    background-color: var(--white);
     padding: 30px;
     border-radius: 10px;
     text-align: center;

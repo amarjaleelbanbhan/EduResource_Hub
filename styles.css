@@ -16,6 +16,21 @@
     --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
 }
 
+/* Dark Mode Variables */
+[data-theme="dark"] {
+    --primary: #7B82FF;
+    --primary-dark: #5B63FF;
+    --secondary: #3B9EFF;
+    --dark: #F9FAFB;
+    --light: #D1D5DB;
+    --bg-light: #111827;
+    --white: #1F2937;
+    --border: #374151;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.5);
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
@@ -26,6 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* --- Navigation --- */
@@ -78,6 +94,46 @@ body {
 .nav-link:hover, .nav-link.active {
     color: var(--primary);
     background-color: #EEF2FF;
+}
+
+/* Dark Mode Toggle Button */
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--dark);
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    background-color: #EEF2FF;
+    color: var(--primary);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+    background-color: var(--border);
+}
+
+.theme-toggle .fa-sun {
+    display: none;
+}
+
+.theme-toggle .fa-moon {
+    display: block;
+}
+
+[data-theme="dark"] .theme-toggle .fa-sun {
+    display: block;
+}
+
+[data-theme="dark"] .theme-toggle .fa-moon {
+    display: none;
 }
 
 .menu-toggle {
@@ -393,6 +449,58 @@ footer {
     background: var(--white);
     border-radius: 12px;
     border: 1px dashed var(--border);
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.page-btn {
+    min-width: 40px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    background-color: var(--white);
+    color: var(--dark);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.page-btn:hover:not(:disabled) {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.page-btn.active {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.page-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.page-ellipsis {
+    padding: 0 8px;
+    color: var(--light);
 }
 
 /* Mobile Responsiveness */
