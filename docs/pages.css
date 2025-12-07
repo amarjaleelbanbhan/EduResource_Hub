@@ -1,0 +1,364 @@
+/* =========================================
+   Additional Styles for About, Blog, Contact Pages
+   ========================================= */
+
+/* Hero Section for Pages */
+.hero-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    margin-bottom: 60px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* About Page Styles */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: var(--light);
+    font-size: 16px;
+}
+
+.about-features {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.about-features li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+}
+
+.about-features li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.mission-section {
+    background-color: var(--bg-light);
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.mission-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.mission-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.mission-card {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.mission-card i {
+    font-size: 40px;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.mission-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mission-card p {
+    color: var(--light);
+    line-height: 1.6;
+}
+
+/* Team Section */
+.team-section {
+    padding: 60px 20px;
+}
+
+.team-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin: 15px 0 5px;
+}
+
+.team-member p {
+    color: var(--light);
+    margin-bottom: 15px;
+}
+
+.team-member .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.team-member a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.team-member a:hover {
+    transform: scale(1.2);
+}
+
+/* Blog Page Styles */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.blog-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+
+.blog-meta {
+    color: var(--light);
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.blog-content p {
+    color: var(--light);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: gap 0.2s;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Contact Page Styles */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.info-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.info-card i {
+    font-size: 40px;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.info-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    color: var(--light);
+}
+
+.info-card a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.info-card a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+/* Responsive Adjustments for Pages */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 40px 20px;
+    }
+    
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    
+    .hero-section p {
+        font-size: 16px;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-text h2 {
+        font-size: 24px;
+    }
+    
+    .mission-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-form {
+        padding: 30px 20px;
+    }
+}

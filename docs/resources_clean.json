@@ -1,0 +1,2756 @@
+[
+  {
+    "Title/Name": "Open Library of Humanities",
+    "Type": "Journal Publisher",
+    "Category": "Humanities",
+    "Link": "https://www.openlibhums.org/",
+    "Short Description": "An award-winning open-access publisher of internationally leading academic scholarship in the humanities.",
+    "Why it\\\\'s useful for students": "Provides free access to high-quality, peer-reviewed research articles in various humanities disciplines.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Project Gutenberg",
+    "Type": "Digital Library",
+    "Category": "Literature",
+    "Link": "https://www.gutenberg.org/",
+    "Short Description": "A library of over 75,000 free eBooks, primarily older works for which U.S. copyright has expired.",
+    "Why it\\\\'s useful for students": "Offers a vast collection of classic literature and public domain books for free, accessible online or for download.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenStax",
+    "Type": "Textbook Publisher",
+    "Category": "General Education",
+    "Link": "https://openstax.org/",
+    "Short Description": "High-quality, peer-reviewed, openly licensed college textbooks that are free online and low-cost in print.",
+    "Why it\\\\'s useful for students": "Provides free, high-quality textbooks for a wide range of college courses, reducing educational costs.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "EDSITEment",
+    "Type": "Website",
+    "Category": "Humanities",
+    "Link": "https://edsitement.neh.gov/",
+    "Short Description": "Offers free resources for teachers, students, and parents searching for high-quality K-12 humanities education materials.",
+    "Why it\\\\'s useful for students": "Provides lesson plans, student activities, and reviewed websites for various humanities subjects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "World History Encyclopedia",
+    "Type": "Website",
+    "Category": "History",
+    "Link": "https://www.worldhistory.org/",
+    "Short Description": "The free online history encyclopedia with fact-checked articles, images, videos, maps, timelines and more.",
+    "Why it\\\\'s useful for students": "Comprehensive and reliable source for historical information, useful for research and general knowledge.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "iCivics",
+    "Type": "Website",
+    "Category": "Social Science",
+    "Link": "https://www.icivics.org/",
+    "Short Description": "Free online games and lesson plans for civics education.",
+    "Why it\\\\'s useful for students": "Engaging and interactive way to learn about civics and government, suitable for middle and high school students.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Zinn Education Project",
+    "Type": "Website",
+    "Category": "History",
+    "Link": "https://www.zinnedproject.org/",
+    "Short Description": "Free lessons and resources for teaching people\\'s history in K-12 classrooms.",
+    "Why it\\\\'s useful for students": "Offers a critical perspective on history, focusing on social justice and marginalized voices.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Open Culture - Philosophy Courses",
+    "Type": "Website",
+    "Category": "Philosophy",
+    "Link": "https://www.openculture.com/philosophy_free_courses",
+    "Short Description": "Collection of free Philosophy courses from the world\\'s leading universities.",
+    "Why it\\\\'s useful for students": "Aggregates free philosophy courses from top institutions, making them easily discoverable.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Digital Public Library of America (DPLA)",
+    "Type": "Digital Library",
+    "Category": "General Education",
+    "Link": "https://dp.la/",
+    "Short Description": "Provides free digital access to millions of materials from libraries, archives, and museums across the United States.",
+    "Why it\\\\'s useful for students": "A vast collection of cultural heritage materials, including texts, images, and sounds, for research and exploration.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "National Gallery of Art - Free Online Art Learning Resources",
+    "Type": "Website",
+    "Category": "Arts",
+    "Link": "https://www.nga.gov/stories/articles/free-online-art-learning-resources-students-and-teachers.html",
+    "Short Description": "Explore a selection of activities, lesson plans, and videos for educators and students for kids of all ages.",
+    "Why it\\\\\\\"s useful for students": "Provides engaging and educational content for learning about art, including lesson plans and videos.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "musictheory.net",
+    "Type": "Website",
+    "Category": "Music",
+    "Link": "https://www.musictheory.net/",
+    "Short Description": "Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive and interactive platform for learning music theory, with lessons and practice tools.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Drawabox",
+    "Type": "Website",
+    "Category": "Art",
+    "Link": "https://drawabox.com/",
+    "Short Description": "A free, exercise based approach to learning the fundamentals of drawing.",
+    "Why it\\\\\\\"s useful for students": "Provides structured lessons and exercises to build foundational drawing skills, essential for aspiring artists.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Audacity",
+    "Type": "Software",
+    "Category": "Music Production",
+    "Link": "https://www.audacityteam.org/",
+    "Short Description": "Free, open source, cross-platform audio software for multi-track recording and editing.",
+    "Why it\\\\\\\"s useful for students": "Powerful and versatile tool for audio editing and recording, suitable for music production, podcasts, and more.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "LMMS",
+    "Type": "Software",
+    "Category": "Music Production",
+    "Link": "https://lmms.io/",
+    "Short Description": "Free cross-platform digital audio workstation (DAW) that allows you to produce music with your computer.",
+    "Why it\\\\\\\"s useful for students": "Enables students to create melodies and beats, synthesize and mix sounds, and arrange samples for music production.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "BandLab",
+    "Type": "Web App",
+    "Category": "Music Production",
+    "Link": "https://www.bandlab.com/",
+    "Short Description": "Free online music creation platform with a multi-track mix editor, loops, and samples.",
+    "Why it\\\\\\\"s useful for students": "Collaborative and accessible platform for music creation, allowing students to record, mix, and share their music.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Soundtrap",
+    "Type": "Web App",
+    "Category": "Music Production",
+    "Link": "https://www.soundtrap.com/",
+    "Short Description": "Online music and podcast studio for creating and collaborating.",
+    "Why it\\\\\\\"s useful for students": "Cloud-based platform for music and podcast creation, offering a wide range of instruments, loops, and effects.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Smithsonian Open Access",
+    "Type": "Digital Collection",
+    "Category": "Arts",
+    "Link": "https://www.si.edu/openaccess",
+    "Short Description": "Millions of Smithsonian\\\"s images available for download, share, and reuse without asking.",
+    "Why it\\\\\\\"s useful for students": "Provides access to a vast collection of cultural and historical images for research, projects, and creative endeavors.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MSD Manual (Professional Version)",
+    "Type": "Website",
+    "Category": "Medicine",
+    "Link": "https://www.msdmanuals.com/professional",
+    "Short Description": "Comprehensive medical information for healthcare professionals and students.",
+    "Why it\\\\\\\"s useful for students": "Provides detailed, peer-reviewed information on thousands of medical topics, including diseases, diagnoses, and treatments.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Osmosis",
+    "Type": "Website",
+    "Category": "Medicine",
+    "Link": "https://www.osmosis.org/",
+    "Short Description": "Learning platform for medical, nursing, and health students & professionals to think clinically and excel.",
+    "Why it\\\\\\\"s useful for students": "Offers engaging videos, flashcards, and practice questions to simplify complex medical concepts.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Radiopaedia",
+    "Type": "Website",
+    "Category": "Medicine",
+    "Link": "https://radiopaedia.org/",
+    "Short Description": "Collaborative radiology resource with a vast collection of cases, articles, and quizzes.",
+    "Why it\\\\\\\"s useful for students": "Excellent for learning medical imaging, with thousands of cases and detailed explanations.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "JAMA Network Open",
+    "Type": "Journal",
+    "Category": "Medicine",
+    "Link": "https://jamanetwork.com/journals/jamanetworkopen",
+    "Short Description": "An international, peer-reviewed, open access, general medical journal.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to high-quality medical research and commentary across various clinical areas.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "DOAJ (Directory of Open Access Journals)",
+    "Type": "Journal Directory",
+    "Category": "General Research",
+    "Link": "https://doaj.org/",
+    "Short Description": "A community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals.",
+    "Why it\\\\\\\"s useful for students": "Helps students find legitimate open access journals across all disciplines, including medicine and health sciences.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Khan Academy - Human Anatomy and Physiology",
+    "Type": "Website",
+    "Category": "Biology, Medicine",
+    "Link": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology",
+    "Short Description": "Introduction to the major organ systems of the human body, their functions, and how they maintain health.",
+    "Why it\\\\\\\"s useful for students": "Provides clear and concise explanations of human anatomy and physiology, with practice exercises and videos.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Visible Body Learn Site",
+    "Type": "Website",
+    "Category": "Anatomy",
+    "Link": "https://www.visiblebody.com/learn/",
+    "Short Description": "Free introduction to each human body system with interactive 3D models.",
+    "Why it\\\\\\\"s useful for students": "Offers interactive 3D anatomical models and detailed explanations, enhancing understanding of human body systems.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MedlinePlus",
+    "Type": "Website",
+    "Category": "Health Information",
+    "Link": "https://medlineplus.gov/",
+    "Short Description": "Information from the National Library of Medicine on diseases, conditions, and wellness issues.",
+    "Why it\\\\\\\"s useful for students": "Reliable and easy-to-understand health information for patients, families, and healthcare providers.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "My Own Business Institute (MOBI)",
+    "Type": "Website",
+    "Category": "Business, Entrepreneurship",
+    "Link": "https://www.scu.edu/mobi/",
+    "Short Description": "Free online business courses on how to start, manage, and grow your own business.",
+    "Why it\\\\\\\"s useful for students": "Provides practical knowledge and skills for aspiring entrepreneurs and business owners.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SCORE",
+    "Type": "Organization",
+    "Category": "Business, Entrepreneurship",
+    "Link": "https://www.score.org/",
+    "Short Description": "Provides free mentoring and resources to small business owners.",
+    "Why it\\\\\\\"s useful for students": "Offers valuable guidance and support from experienced business professionals for starting and growing a business.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "HubSpot Academy",
+    "Type": "Website",
+    "Category": "Business, Marketing",
+    "Link": "https://academy.hubspot.com/",
+    "Short Description": "Free online courses and certifications on inbound marketing, sales, and customer service.",
+    "Why it\\\\\\\"s useful for students": "Offers industry-recognized certifications and practical skills for digital marketing and sales.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Corporate Finance Institute (CFI) Free Courses",
+    "Type": "Website",
+    "Category": "Finance",
+    "Link": "https://corporatefinanceinstitute.com/free-courses/",
+    "Short Description": "Offers free courses on finance, accounting, and financial modeling.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge in corporate finance and financial analysis.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "SpringerOpen - Business & Management Journals",
+    "Type": "Journal Publisher",
+    "Category": "Business, Management",
+    "Link": "https://www.springeropen.com/p/business-management",
+    "Short Description": "Publishes a wide range of open access journals in Business, Management, and Law.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to peer-reviewed academic research in various business and management fields.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Journal of World Business",
+    "Type": "Journal",
+    "Category": "Business",
+    "Link": "https://www.sciencedirect.com/journal/journal-of-world-business/publish/open-access-options",
+    "Short Description": "All articles published gold open access will be immediately and permanently free for everyone to read and download.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to high-quality research on international business topics.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Justia",
+    "Type": "Website",
+    "Category": "Law",
+    "Link": "https://www.justia.com/",
+    "Short Description": "Provides free case law, codes, regulations and legal information for lawyers, business, students and consumers worldwide.",
+    "Why it\\\\\\\"s useful for students": "A comprehensive free legal research platform for statutes, case law, and legal articles.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Cornell Law School Legal Information Institute (LII)",
+    "Type": "Website",
+    "Category": "Law",
+    "Link": "https://www.law.cornell.edu/",
+    "Short Description": "Publishes law online, for free, and creates materials that help people understand law.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to U.S. law, including the U.S. Code, Supreme Court decisions, and the Code of Federal Regulations.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Data.gov",
+    "Type": "Website",
+    "Category": "Government Data",
+    "Link": "https://data.gov/",
+    "Short Description": "The home of the U.S. Government\\\"s open data, providing data, tools, and resources for research and application development.",
+    "Why it\\\\\\\"s useful for students": "Access to a vast array of U.S. government datasets for research, data analysis, and civic projects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "World Bank Open Data",
+    "Type": "Website",
+    "Category": "Government Data, Economics",
+    "Link": "https://data.worldbank.org/",
+    "Short Description": "Provides free and open access to global development data.",
+    "Why it\\\\\\\"s useful for students": "Offers comprehensive datasets on various global indicators, useful for economics, social science, and development studies.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Law Review Commons",
+    "Type": "Journal Repository",
+    "Category": "Law",
+    "Link": "https://lawreviewcommons.com/",
+    "Short Description": "Over 300 open-access law reviews and over 220,000 articles, with free current issues & archives from 1852.",
+    "Why it\\\\\\\"s useful for students": "Provides extensive access to scholarly legal articles and journals, crucial for legal research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Coursera - Professional Development Courses",
+    "Type": "MOOC Platform",
+    "Category": "Professional Development",
+    "Link": "https://www.coursera.org/courses?query=professional%20development",
+    "Short Description": "Online courses to transform your career and build job-ready skills.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses from top universities and companies to enhance professional skills.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Alison - Free Online Career Development Courses",
+    "Type": "Website",
+    "Category": "Career Development",
+    "Link": "https://alison.com/tag/career-development",
+    "Short Description": "Free online courses to elevate your career in various fields.",
+    "Why it\\\\\\\"s useful for students": "Provides free certifications and training in diverse career-related topics.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Grow with Google - Free Skills Training",
+    "Type": "Website",
+    "Category": "Career Development",
+    "Link": "https://grow.google/intl/en_in/learn-skills/",
+    "Short Description": "Free skills training programs developed by Google for in-demand jobs.",
+    "Why it\\\\\\\"s useful for students": "Offers practical skills and certifications directly applicable to job market needs.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Canva - Free Online Resume Builder",
+    "Type": "Tool",
+    "Category": "Career Development",
+    "Link": "https://www.canva.com/create/resumes/",
+    "Short Description": "Free online resume builder with professional and customizable templates.",
+    "Why it\\\\\\\"s useful for students": "Helps create visually appealing and professional resumes easily, with many design options.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Indeed Resume Builder",
+    "Type": "Tool",
+    "Category": "Career Development",
+    "Link": "https://www.resume.com/",
+    "Short Description": "Create a professional resume in minutes with 100% free resume builder.",
+    "Why it\\\\\\\"s useful for students": "Offers a simple and quick way to build a resume with access to samples and AI-powered writing assistance.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Google Interview Warmup",
+    "Type": "Tool",
+    "Category": "Interview Preparation",
+    "Link": "https://grow.google/certificates/interview-warmup/",
+    "Short Description": "A quick way to prepare for your next interview by practicing key questions and getting insights.",
+    "Why it\\\\\\\"s useful for students": "Provides AI-powered mock interviews and feedback to improve interview skills and confidence.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SDG Academy",
+    "Type": "MOOC Platform",
+    "Category": "Sustainability",
+    "Link": "https://sdgacademy.org/",
+    "Short Description": "Offers free Massive Open Online Courses (MOOCs) on sustainable development from global faculty.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive education on the United Nations Sustainable Development Goals and related topics.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT OpenCourseWare - Environment & Sustainability",
+    "Type": "MOOC Platform",
+    "Category": "Environmental Science, Sustainability",
+    "Link": "https://ocw.mit.edu/collections/environment/",
+    "Short Description": "Free online course materials related to environmental science and sustainability from MIT.",
+    "Why it\\\\\\\"s useful for students": "Access to world-class educational content on environmental issues and sustainable practices.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "The Open Environmental Research Journal",
+    "Type": "Journal",
+    "Category": "Environmental Science",
+    "Link": "https://openenvironmentalresearchjournal.com/",
+    "Short Description": "An international, peer-reviewed, open-access journal covering all aspects of environmental research.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to scholarly articles and research in environmental science.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "CLEAN (Climate Literacy and Energy Awareness Network)",
+    "Type": "Website",
+    "Category": "Climate Change",
+    "Link": "https://cleanet.org/index.html",
+    "Short Description": "A collection of free, high-quality teaching materials and resources related to climate and energy.",
+    "Why it\\\\\\\"s useful for students": "Offers rigorously reviewed educational resources for understanding climate change and energy.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "IBM SkillsBuild - Data Science Courses",
+    "Type": "Website",
+    "Category": "Data Science",
+    "Link": "https://skillsbuild.org/students/course-catalog/data-science",
+    "Short Description": "Free resources to learn what data science is and how it\\\"s used in different industries.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge and practical skills in data science, with industry relevance.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Microsoft Learn - Data Science for Beginners",
+    "Type": "Website",
+    "Category": "Data Science",
+    "Link": "https://microsoft.github.io/Data-Science-For-Beginners/",
+    "Short Description": "A 10-week, 20-lesson curriculum all about Data Science, with quizzes and written instructions.",
+    "Why it\\\\\\\"s useful for students": "Structured learning path for beginners to understand core data science concepts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard Data Science Review",
+    "Type": "Journal",
+    "Category": "Data Science",
+    "Link": "https://hdsr.mitpress.mit.edu/",
+    "Short Description": "An open access journal of the Harvard Data Science Initiative publishing research and commentary.",
+    "Why it\\\\\\\"s useful for students": "Provides access to cutting-edge research and insights in the field of data science.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Tableau Public",
+    "Type": "Software",
+    "Category": "Data Visualization",
+    "Link": "https://public.tableau.com/",
+    "Short Description": "Free platform to explore, create, and share data visualizations and interactive dashboards.",
+    "Why it\\\\\\\"s useful for students": "Enables students to develop data visualization skills and create compelling visual stories from data.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "RAWGraphs",
+    "Type": "Tool",
+    "Category": "Data Visualization",
+    "Link": "https://www.rawgraphs.io/",
+    "Short Description": "An open-source web application to create custom vector-based visualizations.",
+    "Why it\\\\\\\"s useful for students": "Allows for flexible and unique data visualizations, bridging the gap between spreadsheets and vector graphics.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "Engineer4Free",
+    "Type": "Website",
+    "Category": "Engineering",
+    "Link": "https://www.engineer4free.com/",
+    "Short Description": "Free university-level engineering tutorials and YouTube videos.",
+    "Why it\\\\\\\"s useful for students": "Provides accessible and comprehensive tutorials for various engineering subjects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT OpenCourseWare - Engineering",
+    "Type": "MOOC Platform",
+    "Category": "Engineering",
+    "Link": "https://ocw.mit.edu/courses/find-by-topic/#cat=engineering",
+    "Short Description": "Free lecture notes, exams, and videos from MIT's engineering courses.",
+    "Why it\\\\\\\"s useful for students": "Access to world-class engineering education materials from MIT.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Engineering & Construction Courses",
+    "Type": "Website",
+    "Category": "Engineering",
+    "Link": "https://alison.com/courses/engineering",
+    "Short Description": "Free online courses on various engineering and construction topics.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses to upskill in different engineering disciplines.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "FreeCAD",
+    "Type": "Software",
+    "Category": "CAD, Engineering",
+    "Link": "https://www.freecad.org/",
+    "Short Description": "An open-source parametric 3D modeler primarily to design real-life objects of any size.",
+    "Why it\\\\\\\"s useful for students": "Powerful and free CAD software for designing and modeling, essential for engineering and design students.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "Autodesk Free CAD Software for Students",
+    "Type": "Software",
+    "Category": "CAD, Engineering",
+    "Link": "https://www.autodesk.com/solutions/free-cad-software",
+    "Short Description": "Free 3D CAD software like AutoCAD for education, AutoCAD Web, and Fusion for personal use.",
+    "Why it\\\\\\\"s useful for students": "Provides access to industry-standard CAD software for learning and personal projects.",
+    "Access type": "Student-only"
+  },
+  {
+    "Title/Name": "Tinkercad",
+    "Type": "Web App",
+    "Category": "3D Design, Electronics",
+    "Link": "https://www.tinkercad.com/",
+    "Short Description": "A free web app for 3D design, electronics, and coding, ideal for beginners.",
+    "Why it\\\\\\\"s useful for students": "Easy-to-use and accessible platform for introductory 3D design and electronics.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "IBM SkillsBuild - Tech Courses",
+    "Type": "Website",
+    "Category": "Technology",
+    "Link": "https://skillsbuild.org/learners",
+    "Short Description": "Free learning resources to build a career in technology, including courses and digital credentials.",
+    "Why it\\\\\\\"s useful for students": "Offers free courses and certifications in various tech fields, enhancing career readiness.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Quill.org",
+    "Type": "Website",
+    "Category": "Writing, Grammar",
+    "Link": "https://www.quill.org/",
+    "Short Description": "Provides free literacy activities that build reading comprehension, writing, and language skills.",
+    "Why it\\\\\\\"s useful for students": "Offers interactive exercises to improve writing and grammar skills for all levels.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "The Open University - Start writing fiction",
+    "Type": "MOOC",
+    "Category": "Creative Writing",
+    "Link": "https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-0",
+    "Short Description": "A free course that gives insight into how authors create characters and settings.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge and practical tips for aspiring fiction writers.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "NBCU Academy - Fundamentals of Journalism Course",
+    "Type": "MOOC",
+    "Category": "Journalism",
+    "Link": "https://nbcuacademy.com/course/fundamentals-of-journalism/",
+    "Short Description": "Learn the fundamentals of journalism first-hand from world-class journalists.",
+    "Why it\\\\\\\"s useful for students": "Offers practical insights and foundational knowledge in journalism from industry experts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Thomson Foundation - Journalism Now",
+    "Type": "MOOC",
+    "Category": "Journalism",
+    "Link": "https://www.thomsonfoundation.org/e-learning/live-courses/",
+    "Short Description": "Free online interactive courses designed and led by industry experts for professional development.",
+    "Why it\\\\\\\"s useful for students": "Provides up-to-date training and skills for aspiring and current journalists.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "WriterDuet",
+    "Type": "Software",
+    "Category": "Screenwriting",
+    "Link": "https://www.writerduet.com/",
+    "Short Description": "Professional screenwriting software for planning, writing, and sharing scripts.",
+    "Why it\\\\\\\"s useful for students": "Industry-standard software with a free version, enabling students to write and format screenplays.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Khan Academy - Health and Medicine",
+    "Type": "Website",
+    "Category": "Health, Medicine",
+    "Link": "https://www.khanacademy.org/science/health-and-medicine",
+    "Short Description": "Free online courses and resources covering various health and medical topics.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge in health and medicine, from basic human anatomy to disease processes.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Osmosis",
+    "Type": "Website",
+    "Category": "Medicine",
+    "Link": "https://www.osmosis.org/",
+    "Short Description": "A visual learning platform for medical, nursing, and health students and professionals.",
+    "Why it\\\\\\\"s useful for students": "Simplifies complex medical concepts through engaging videos and practice questions.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "AMBOSS",
+    "Type": "Website",
+    "Category": "Medicine",
+    "Link": "https://www.amboss.com/us",
+    "Short Description": "A digital medical resource and exam prep tool for doctors and students.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive medical knowledge platform with clinical content and question banks for exam preparation.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "SDG Academy - Public Health Courses",
+    "Type": "MOOC Platform",
+    "Category": "Public Health",
+    "Link": "https://sdgacademy.org/",
+    "Short Description": "Offers free Massive Open Online Courses (MOOCs) on sustainable development, including public health.",
+    "Why it\\\\\\\"s useful for students": "Provides education on global health challenges and public health interventions.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "CDC - Environmental Public Health Online Courses (EPHOC)",
+    "Type": "MOOC",
+    "Category": "Public Health",
+    "Link": "https://www.cdc.gov/environmental-health-practice/php/training/index.html",
+    "Short Description": "Free online courses on environmental public health taught by experts.",
+    "Why it\\\\\\\"s useful for students": "Offers specialized training in environmental health concepts and practices.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "BMJ Open",
+    "Type": "Journal",
+    "Category": "Medicine",
+    "Link": "https://bmjopen.bmj.com/",
+    "Short Description": "An online, open access journal publishing medical research from all disciplines.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to peer-reviewed medical research across a wide range of specialties.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "The Cureus Journal of Medical Science",
+    "Type": "Journal",
+    "Category": "Medicine",
+    "Link": "https://www.cureus.com/",
+    "Short Description": "Provides free Gold Open Access to credible medical science.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to a wide range of medical research articles and case reports.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "GetBodySmart",
+    "Type": "Website",
+    "Category": "Anatomy, Physiology",
+    "Link": "https://www.getbodysmart.com/",
+    "Short Description": "A free website study guide review that uses interactive animations to help you learn about anatomy and physiology.",
+    "Why it\\\\\\\"s useful for students": "Interactive and visual learning tools for understanding human anatomy and physiology.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "My Own Business Institute (MOBI)",
+    "Type": "Website",
+    "Category": "Business",
+    "Link": "https://www.scu.edu/mobi/",
+    "Short Description": "Free online business courses on how to start, manage, and grow your own business.",
+    "Why it\\\\\\\"s useful for students": "Provides practical knowledge and guidance for aspiring entrepreneurs and business students.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SCORE",
+    "Type": "Organization",
+    "Category": "Business",
+    "Link": "https://www.score.org/",
+    "Short Description": "Provides free mentoring and resources to small business owners.",
+    "Why it\\\\\\\"s useful for students": "Offers valuable mentorship and resources for students interested in entrepreneurship and small business.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Business Courses",
+    "Type": "Website",
+    "Category": "Business",
+    "Link": "https://alison.com/courses/business",
+    "Short Description": "Hundreds of free online business courses across finance, management, leadership, and more.",
+    "Why it\\\\\\\"s useful for students": "Wide range of courses to develop business skills and knowledge.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT Open Learning - Finance Courses",
+    "Type": "MOOC Platform",
+    "Category": "Finance",
+    "Link": "https://openlearning.mit.edu/news/become-financially-savvy-free-online-courses-mit",
+    "Short Description": "Free online courses from MIT to become financially savvy, covering personal finance, fintech, and more.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality finance education from a leading institution.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Khan Academy - Personal Finance",
+    "Type": "Website",
+    "Category": "Personal Finance",
+    "Link": "https://www.khanacademy.org/college-careers-more/personal-finance",
+    "Short Description": "Covers topics like saving, budgeting, interest, debt, investments, and retirement.",
+    "Why it\\\\\\\"s useful for students": "Essential knowledge for managing personal finances and making informed financial decisions.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SpringerOpen - Business Journals",
+    "Type": "Journal Publisher",
+    "Category": "Business",
+    "Link": "https://www.springeropen.com/p/business-management",
+    "Short Description": "Publishes a wide range of open access journals in Business, Management, and Law.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to scholarly articles and research in various business fields.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "MDPI - Businesses Journal",
+    "Type": "Journal",
+    "Category": "Business",
+    "Link": "https://www.mdpi.com/journal/businesses",
+    "Short Description": "An international, peer-reviewed, open access journal on business.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to current research and developments in business studies.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "eFinancialModels - Free Financial Model Templates",
+    "Type": "Tool",
+    "Category": "Financial Modeling",
+    "Link": "https://www.efinancialmodels.com/downloads/tag/free/",
+    "Short Description": "Professional, easy-to-use, free financial model templates.",
+    "Why it\\\\\\\"s useful for students": "Provides practical templates for financial analysis and business planning.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "NGA (National Gallery of Art) Online Art Learning Resources",
+    "Type": "Website",
+    "Category": "Art",
+    "Link": "https://www.nga.gov/stories/articles/free-online-art-learning-resources-students-and-teachers",
+    "Short Description": "Explore a selection of activities, lesson plans, and videos for educators and students to learn about art.",
+    "Why it\\\\\\\"s useful for students": "Provides engaging and educational content for art appreciation and learning.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MoMA (Museum of Modern Art) Free Online Courses",
+    "Type": "MOOC Platform",
+    "Category": "Art",
+    "Link": "https://www.moma.org/teaching/classes",
+    "Short Description": "Free Massive Open Online Courses (MOOCs) on Coursera, featuring artists and works from MoMA's collection.",
+    "Why it\\\\\\\"s useful for students": "Offers insights into modern art and design directly from artists and curators.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Free Humanities Courses",
+    "Type": "MOOC Platform",
+    "Category": "Humanities",
+    "Link": "https://pll.harvard.edu/subject/humanities/free",
+    "Short Description": "Free online courses in various humanities subjects, including history, literature, and philosophy.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality humanities education from a prestigious university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenLearn - The Open University - History & The Arts",
+    "Type": "MOOC Platform",
+    "Category": "Humanities, Arts",
+    "Link": "https://www.open.edu/openlearn/history-the-arts/free-courses",
+    "Short Description": "Free courses covering various aspects of history and the arts.",
+    "Why it\\\\\\\"s useful for students": "Provides accessible learning opportunities in diverse humanities and arts topics.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MDPI - Arts Journal",
+    "Type": "Journal",
+    "Category": "Arts",
+    "Link": "https://www.mdpi.com/journal/arts",
+    "Short Description": "An international, peer-reviewed, open access journal promoting research on all aspects of the visual and performing arts.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to scholarly articles and research in the arts.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Open Arts Journal",
+    "Type": "Journal",
+    "Category": "Arts",
+    "Link": "https://openartsjournal.org/",
+    "Short Description": "A rigorously compiled, peer-reviewed platform for arts scholarship open to diverse participants.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to high-quality, peer-reviewed arts scholarship.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "musictheory.net",
+    "Type": "Website",
+    "Category": "Music Theory",
+    "Link": "https://www.musictheory.net/",
+    "Short Description": "Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive and interactive platform for learning and practicing music theory concepts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Musicca",
+    "Type": "Website",
+    "Category": "Music Theory",
+    "Link": "https://www.musicca.com/",
+    "Short Description": "Learn music theory for free through effective exercises and engaging content.",
+    "Why it\\\\\\\"s useful for students": "Enhances ability to read, write, and play music with free, interactive tools.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Smarthistory",
+    "Type": "Website",
+    "Category": "Art History",
+    "Link": "https://smarthistory.org/",
+    "Short Description": "The most-visited art history resource in the world, with contributions from hundreds of institutions.",
+    "Why it\\\\\\\"s useful for students": "Provides free, high-quality content on art history, including videos, essays, and images.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "PBS LearningMedia - Social Studies",
+    "Type": "Website",
+    "Category": "Social Sciences",
+    "Link": "https://www.pbslearningmedia.org/subjects/social-studies/",
+    "Short Description": "Thousands of social studies activities, lessons, and interactive resources for all grades.",
+    "Why it\\\\\\\"s useful for students": "Provides engaging and standards-aligned content for learning social studies.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OER Project",
+    "Type": "Website",
+    "Category": "Social Sciences, History",
+    "Link": "https://www.oerproject.com/",
+    "Short Description": "Free, online social studies and world history curricula aligned to state standards.",
+    "Why it\\\\\\\"s useful for students": "Offers comprehensive and structured learning materials for history and social studies.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Free Humanities Courses",
+    "Type": "MOOC Platform",
+    "Category": "Humanities, Social Sciences",
+    "Link": "https://pll.harvard.edu/subject/humanities/free",
+    "Short Description": "Free online courses in various humanities subjects, including history, literature, and philosophy.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality humanities education from a prestigious university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Education Courses",
+    "Type": "Website",
+    "Category": "Education",
+    "Link": "https://alison.com/courses/education",
+    "Short Description": "Wide range of subjects for educators looking to improve their teaching techniques.",
+    "Why it\\\\\\\"s useful for students": "Offers free courses to enhance teaching skills and pedagogical knowledge.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MDPI - Social Sciences Journal",
+    "Type": "Journal",
+    "Category": "Social Sciences",
+    "Link": "https://www.mdpi.com/journal/socsci",
+    "Short Description": "An international, open access journal with rapid peer-review, publishing works from a wide range of fields.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to scholarly articles and research in various social science disciplines.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "SAGE Open",
+    "Type": "Journal",
+    "Category": "Social Sciences",
+    "Link": "https://journals.sagepub.com/home/SGO",
+    "Short Description": "A peer-reviewed, 'Gold' open access journal that publishes original research and review articles.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to high-quality, peer-reviewed research in social sciences.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Therapist Aid",
+    "Type": "Website",
+    "Category": "Psychology, Mental Health",
+    "Link": "https://www.therapistaid.com/",
+    "Short Description": "Free worksheets, treatment guides, and videos for mental health professionals.",
+    "Why it\\\\\\\"s useful for students": "Provides practical resources for students studying psychology or mental health.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Psychology Tools",
+    "Type": "Website",
+    "Category": "Psychology, Mental Health",
+    "Link": "https://www.psychologytools.com/",
+    "Short Description": "Library of resources including assessments, formulations, psychoeducation, and interventions.",
+    "Why it\\\\\\\"s useful for students": "Offers evidence-based tools and resources for learning and practicing psychology.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "OpenLearn - The Open University - Sociology",
+    "Type": "MOOC Platform",
+    "Category": "Sociology",
+    "Link": "https://libguides.humboldt.edu/openedu/soc",
+    "Short Description": "Free sociology courses, interactives, videos and more.",
+    "Why it\\\\\\\"s useful for students": "Provides free and accessible learning materials for understanding sociological concepts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OER Project - History Curriculum",
+    "Type": "Website",
+    "Category": "History",
+    "Link": "https://www.oerproject.com/",
+    "Short Description": "Free, online social studies and world history curricula aligned to state standards.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive and structured learning materials for history.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "HISTORY Classroom",
+    "Type": "Website",
+    "Category": "History",
+    "Link": "https://www.history.com/classroom",
+    "Short Description": "Offers resources for educators, including education guides, learning tools, and links to educational content.",
+    "Why it\\\\\\\"s useful for students": "Provides engaging content and tools for learning about history.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Free Philosophy Courses",
+    "Type": "MOOC Platform",
+    "Category": "Philosophy",
+    "Link": "https://pll.harvard.edu/subject/philosophy",
+    "Short Description": "Free online courses in philosophy, including moral and political philosophy.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality philosophy education from a prestigious university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Open Culture - Free Philosophy Courses",
+    "Type": "MOOC Platform",
+    "Category": "Philosophy",
+    "Link": "https://www.openculture.com/philosophy_free_courses",
+    "Short Description": "Collection of free philosophy courses from leading universities.",
+    "Why it\\\\\\\"s useful for students": "Provides a wide range of free courses to explore various philosophical topics.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MDPI - Histories Journal",
+    "Type": "Journal",
+    "Category": "History",
+    "Link": "https://www.mdpi.com/journal/histories",
+    "Short Description": "An international, peer-reviewed, open access journal on inquiry of change and continuity of human societies.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to scholarly articles and research in history.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "The Journal of Modern History",
+    "Type": "Journal",
+    "Category": "History",
+    "Link": "https://www.journals.uchicago.edu/journals/jmh/open",
+    "Short Description": "Leading journal worldwide for the study of all varieties of European history, with open access options.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to high-quality, peer-reviewed historical research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Ergo: An Open Access Journal of Philosophy",
+    "Type": "Journal",
+    "Category": "Philosophy",
+    "Link": "https://journals.publishing.umich.edu/ergo/",
+    "Short Description": "An open access philosophy journal accepting submissions on all philosophical topics and from all philosophical traditions.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to scholarly articles in philosophy.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "LSAC - Free Resources for Aspiring Law Students",
+    "Type": "Website",
+    "Category": "Law",
+    "Link": "https://www.lsac.org/discover-law/how-prepare-law-school/free-resources-aspiring-law-students",
+    "Short Description": "Free resources to support aspiring law students on their law school enrollment journey.",
+    "Why it\\\\\\\"s useful for students": "Provides essential guidance and preparation materials for law school admissions.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Justia",
+    "Type": "Website",
+    "Category": "Law, Legal Research",
+    "Link": "https://www.justia.com/",
+    "Short Description": "Provides free case law, codes, regulations and legal information for lawyers, business, students and consumers worldwide.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive free legal research platform for statutes, case law, and legal articles.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Cornell Law School - Legal Information Institute (LII)",
+    "Type": "Website",
+    "Category": "Law, Legal Research",
+    "Link": "https://www.law.cornell.edu/",
+    "Short Description": "Publishing law online, for free. Creating materials that help people understand law.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to U.S. law, including the U.S. Code, Supreme Court decisions, and legal encyclopedias.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Government Courses",
+    "Type": "MOOC Platform",
+    "Category": "Government, Political Science",
+    "Link": "https://pll.harvard.edu/subject/government",
+    "Short Description": "Free online courses on American constitutional democracy and government.",
+    "Why it\\\\\\\"s useful for students": "Gain foundational knowledge of government and political systems from a top university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Government Courses",
+    "Type": "Website",
+    "Category": "Government, Political Science",
+    "Link": "https://alison.com/tag/government",
+    "Short Description": "Free online government courses to understand different political systems.",
+    "Why it\\\\\\\"s useful for students": "Offers a better understanding of how countries are administered and regulated.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Law Review Commons",
+    "Type": "Journal Aggregator",
+    "Category": "Law, Legal Research",
+    "Link": "https://lawreviewcommons.com/",
+    "Short Description": "Over 300 open-access law reviews with free current issues and archives from 1852.",
+    "Why it\\\\\\\"s useful for students": "Provides extensive free access to scholarly legal articles and journals.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "MDPI - Laws Journal",
+    "Type": "Journal",
+    "Category": "Law",
+    "Link": "https://www.mdpi.com/journal/laws",
+    "Short Description": "An international, peer-reviewed, open access journal on legal systems, theory, and institutions.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to scholarly articles and research in law.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "CourtListener",
+    "Type": "Tool, Legal Research",
+    "Category": "Law, Legal Research",
+    "Link": "https://www.courtlistener.com/",
+    "Short Description": "A free legal research website containing millions of legal opinions from federal and state courts.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to a vast database of legal opinions for research and study.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Coursera - Professional Development Courses",
+    "Type": "MOOC Platform",
+    "Category": "Professional Development",
+    "Link": "https://www.coursera.org/courses?query=professional%20development",
+    "Short Description": "Online courses to build job-ready skills and advance careers.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses to enhance professional skills and career prospects.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Grow with Google - Free Skills Training",
+    "Type": "Website",
+    "Category": "Professional Development",
+    "Link": "https://grow.google/intl/en_in/learn-skills/",
+    "Short Description": "Free skills training programs developed by Google to help individuals get ahead in their careers.",
+    "Why it\\\\\\\"s useful for students": "Provides valuable skills for in-demand jobs and career growth.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "CareerOneStop",
+    "Type": "Website",
+    "Category": "Career Development",
+    "Link": "https://www.careeronestop.org/",
+    "Short Description": "Explore career options, assessments, job trends, and find training and education.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive resource for career planning, exploration, and skill development.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "ResumeBuilder.com",
+    "Type": "Tool",
+    "Category": "Resume Building",
+    "Link": "https://www.resumebuilder.com/",
+    "Short Description": "Free online resume builder with professional and customizable templates.",
+    "Why it\\\\\\\"s useful for students": "Helps create professional resumes quickly and easily.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Canva - Free Online Resume Builder",
+    "Type": "Tool",
+    "Category": "Resume Building",
+    "Link": "https://www.canva.com/create/resumes/",
+    "Short Description": "Sleek and attractive resume builder with hundreds of free, designer-made templates.",
+    "Why it\\\\\\\"s useful for students": "Offers creative and professional resume designs for various industries.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Interview Warmup - Grow with Google",
+    "Type": "Tool",
+    "Category": "Interview Preparation",
+    "Link": "https://grow.google/certificates/interview-warmup/",
+    "Short Description": "Helps users become familiar with key questions, refine answers, and get comfortable with the interview process.",
+    "Why it\\\\\\\"s useful for students": "Provides AI-powered mock interviews and personalized feedback to boost confidence.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Pramp",
+    "Type": "Platform",
+    "Category": "Interview Preparation",
+    "Link": "https://www.pramp.com/",
+    "Short Description": "Practice live mock interviews and coding problems online with peers, for free.",
+    "Why it\\\\\\\"s useful for students": "Offers peer-to-peer mock interviews for technical and behavioral interview practice.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "LinkedIn",
+    "Type": "Platform",
+    "Category": "Networking, Professional Development",
+    "Link": "https://www.linkedin.com/",
+    "Short Description": "Professional networking platform for career development, job searching, and industry connections.",
+    "Why it\\\\\\\"s useful for students": "Essential for building professional networks, finding job opportunities, and learning industry insights.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "MIT OpenCourseWare - Environment & Sustainability",
+    "Type": "MOOC Platform",
+    "Category": "Environmental Science, Sustainability",
+    "Link": "https://ocw.mit.edu/collections/environment/",
+    "Short Description": "Free online course materials inspired by interdisciplinary MIT programs in environment and sustainability.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality environmental science and sustainability education from a leading institution.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SDG Academy",
+    "Type": "MOOC Platform",
+    "Category": "Sustainability",
+    "Link": "https://sdgacademy.org/",
+    "Short Description": "Offers 50+ free Massive Open Online Courses taught by a global faculty on sustainable development.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive education on global sustainable development goals and challenges.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Sustainability Courses",
+    "Type": "Website",
+    "Category": "Sustainability",
+    "Link": "https://alison.com/tag/sustainability",
+    "Short Description": "Free online courses covering sustainable development and living.",
+    "Why it\\\\\\\"s useful for students": "Learn about sustainable practices and environmental responsibility.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Journal of Environmental Sciences",
+    "Type": "Journal",
+    "Category": "Environmental Science",
+    "Link": "https://www.sciencedirect.com/journal/journal-of-environmental-sciences",
+    "Short Description": "An international peer-reviewed journal publishing research in environmental sciences.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to scholarly articles and research in environmental science.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Frontiers in Environmental Science",
+    "Type": "Journal",
+    "Category": "Environmental Science",
+    "Link": "https://www.frontiersin.org/journals/environmental-science",
+    "Short Description": "An innovative journal that advances knowledge of the natural world and its intersections with human society.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to cutting-edge research in environmental science.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "NASA Earthdata",
+    "Type": "Dataset",
+    "Category": "Environmental Data",
+    "Link": "https://www.earthdata.nasa.gov/",
+    "Short Description": "NASA's massive archive of Earth science data, free and open to any user for any purpose.",
+    "Why it\\\\\\\"s useful for students": "Provides access to a vast collection of Earth observation data for research and analysis.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Climate Data Online (CDO)",
+    "Type": "Dataset",
+    "Category": "Environmental Data",
+    "Link": "https://www.ncdc.noaa.gov/cdo-web/datasets",
+    "Short Description": "Provides free access to NOAA's archive of global historical weather and climate data.",
+    "Why it\\\\\\\"s useful for students": "Offers valuable climate and weather data for environmental studies and research.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "IBM SkillsBuild - Free Data Science Courses",
+    "Type": "MOOC Platform",
+    "Category": "Data Science",
+    "Link": "https://skillsbuild.org/students/course-catalog/data-science",
+    "Short Description": "Free resources to learn what data science is and how it's used in different industries.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge and practical skills in data science.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Data Science Courses",
+    "Type": "MOOC Platform",
+    "Category": "Data Science",
+    "Link": "https://pll.harvard.edu/subject/data-science",
+    "Short Description": "Learn basic coding tools to help save time and draw insights from thousands of digital documents.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality data science education from a prestigious university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Coursera - Free Data Analysis Courses",
+    "Type": "MOOC Platform",
+    "Category": "Data Analysis",
+    "Link": "https://www.coursera.org/courses?query=free&skills=Data%20Analysis",
+    "Short Description": "Free courses to learn how to collect, interpret, and visualize data to uncover insights.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses to develop data analysis skills using various tools.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Springboard - Free Data Analytics Course",
+    "Type": "MOOC",
+    "Category": "Data Analytics",
+    "Link": "https://www.springboard.com/resources/learning-paths/data-analysis/",
+    "Short Description": "A short but intensive introduction to data analytics, divided into easy-to-digest modules and a practical case study.",
+    "Why it\\\\\\\"s useful for students": "Provides a quick and practical introduction to data analytics concepts and techniques.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard Data Science Review",
+    "Type": "Journal",
+    "Category": "Data Science",
+    "Link": "https://hdsr.mitpress.mit.edu/",
+    "Short Description": "An open access journal of the Harvard Data Science Initiative publishing research in data science.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to cutting-edge research and insights in data science.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Data Science Journal",
+    "Type": "Journal",
+    "Category": "Data Science",
+    "Link": "https://datascience.codata.org/",
+    "Short Description": "A peer-reviewed, open access, electronic journal, publishing papers on the management, dissemination, use and reuse of research data.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to scholarly articles on data management and research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Tableau Public",
+    "Type": "Tool",
+    "Category": "Data Visualization",
+    "Link": "https://public.tableau.com/",
+    "Short Description": "Free platform to explore, create, and publicly share data visualizations online.",
+    "Why it\\\\\\\"s useful for students": "Enables students to create interactive and shareable data visualizations without coding.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "RAWGraphs",
+    "Type": "Tool",
+    "Category": "Data Visualization",
+    "Link": "https://www.rawgraphs.io/",
+    "Short Description": "An open-source data visualization framework for creating custom visualizations.",
+    "Why it\\\\\\\"s useful for students": "Allows students to create a wide range of charts and visualize data without programming.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "Kaggle - Datasets",
+    "Type": "Dataset",
+    "Category": "Machine Learning, Data Science",
+    "Link": "https://www.kaggle.com/datasets",
+    "Short Description": "Download open datasets on thousands of projects for machine learning and data science.",
+    "Why it\\\\\\\"s useful for students": "Provides a vast collection of real-world datasets for practicing machine learning and data analysis.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Engineer4Free",
+    "Type": "Website",
+    "Category": "Engineering",
+    "Link": "https://www.engineer4free.com/",
+    "Short Description": "Tutorial site where anyone can learn university level engineering for free.",
+    "Why it\\\\\\\"s useful for students": "Provides hundreds of free video tutorials for various engineering subjects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT OpenCourseWare - Engineering",
+    "Type": "MOOC Platform",
+    "Category": "Engineering",
+    "Link": "https://ocw.mit.edu/",
+    "Short Description": "Free lecture notes, exams, and videos from MIT on various engineering disciplines.",
+    "Why it\\\\\\\"s useful for students": "Access to world-class engineering education materials from MIT.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Engineering & Construction Courses",
+    "Type": "MOOC Platform",
+    "Category": "Engineering",
+    "Link": "https://alison.com/courses/engineering",
+    "Short Description": "Free online engineering and construction courses to dive into problem solving, design selection and innovation.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses to upskill in engineering and construction.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "FreeCAD",
+    "Type": "Software",
+    "Category": "CAD, Engineering",
+    "Link": "https://www.freecad.org/",
+    "Short Description": "A free and versatile software that lets you design 3D objects with parametric features and constraints.",
+    "Why it\\\\\\\"s useful for students": "Powerful open-source CAD software for 3D modeling and design.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "LibreCAD",
+    "Type": "Software",
+    "Category": "CAD, Engineering",
+    "Link": "https://librecad.org/",
+    "Short Description": "A cross-platform, feature-packed and mature 2D-CAD application with no language barriers and no license costs.",
+    "Why it\\\\\\\"s useful for students": "Free and open-source 2D CAD software for technical drawing and design.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "Codecademy",
+    "Type": "Platform",
+    "Category": "Coding, Programming",
+    "Link": "https://www.codecademy.com/",
+    "Short Description": "Learn to code with interactive lessons in Python, HTML & CSS, Data Science, and more.",
+    "Why it\\\\\\\"s useful for students": "Provides interactive coding lessons and projects for various programming languages.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "freeCodeCamp",
+    "Type": "Website",
+    "Category": "Coding, Programming",
+    "Link": "https://www.freecodecamp.org/",
+    "Short Description": "Our mission: to help people learn to code for free.",
+    "Why it\\\\\\\"s useful for students": "Offers free certifications in web development, data science, and more through hands-on projects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "LeetCode",
+    "Type": "Platform",
+    "Category": "Coding, Interview Preparation",
+    "Link": "https://leetcode.com/",
+    "Short Description": "The world's leading online programming learning platform to enhance skills and prepare for technical interviews.",
+    "Why it\\\\\\\"s useful for students": "Provides a vast collection of coding problems and interview preparation resources.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "SpringerOpen - Engineering Journals",
+    "Type": "Journal Aggregator",
+    "Category": "Engineering",
+    "Link": "https://www.springeropen.com/p/engineering",
+    "Short Description": "Publishes more than 30 open access journals in Engineering, ranging from civil and mechanical engineering to robotics and transportation.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to a wide range of peer-reviewed engineering research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "MIT Open Learning - Free Online Writing Courses",
+    "Type": "MOOC Platform",
+    "Category": "Creative Writing",
+    "Link": "https://openlearning.mit.edu/news/fuel-your-passion-storytelling-16-free-online-courses-mit",
+    "Short Description": "16 free online courses from MIT Open Learning to help guide you through every stage of the writing process.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive guidance on creative writing from a renowned institution.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "The Open University - Start Writing Fiction",
+    "Type": "MOOC",
+    "Category": "Creative Writing",
+    "Link": "https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-0",
+    "Short Description": "Free course to give insight into how authors create their characters and settings.",
+    "Why it\\\\\\\"s useful for students": "Excellent for beginners to understand the fundamentals of fiction writing.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Creative Writing Courses",
+    "Type": "Website",
+    "Category": "Creative Writing",
+    "Link": "https://alison.com/tag/creative-writing",
+    "Short Description": "Free online creative writing courses to teach how to craft original and self-expressive writing.",
+    "Why it\\\\\\\"s useful for students": "Offers a variety of courses to develop creative writing skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "NBCU Academy - Fundamentals of Journalism Course",
+    "Type": "MOOC",
+    "Category": "Journalism",
+    "Link": "https://nbcuacademy.com/course/fundamentals-of-journalism/",
+    "Short Description": "Free online course to learn the fundamentals of journalism first-hand from world-class journalists.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge in journalism from industry experts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Thomson Foundation - Journalism Now",
+    "Type": "MOOC Platform",
+    "Category": "Journalism",
+    "Link": "https://www.thomsonfoundation.org/e-learning/live-courses/",
+    "Short Description": "Free online interactive courses designed and led by industry experts.",
+    "Why it\\\\\\\"s useful for students": "Offers practical journalism training and supports continuing professional development.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Journal of Creative Writing Studies",
+    "Type": "Journal",
+    "Category": "Creative Writing",
+    "Link": "https://repository.rit.edu/jcws/",
+    "Short Description": "A peer-reviewed, open access journal publishing research that examines the teaching, practice, theory, and history of creative writing.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to scholarly articles on creative writing studies.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "New Writing - Taylor & Francis Online",
+    "Type": "Journal",
+    "Category": "Creative Writing",
+    "Link": "https://www.tandfonline.com/journals/rmnw20",
+    "Short Description": "Publishes research on creative writing, specifically relating to creative writing activities in universities and other higher education.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to research and insights into creative writing in academic settings.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Grammarly",
+    "Type": "Tool",
+    "Category": "Writing",
+    "Link": "https://www.grammarly.com/",
+    "Short Description": "Free AI writing assistance for grammar, spelling, punctuation, and style.",
+    "Why it\\\\\\\"s useful for students": "Helps improve writing quality and clarity for academic and professional purposes.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Google Docs",
+    "Type": "Tool",
+    "Category": "Writing, Collaboration",
+    "Link": "https://docs.google.com/",
+    "Short Description": "Free online word processor for creating and collaborating on documents.",
+    "Why it\\\\\\\"s useful for students": "Enables real-time collaboration on writing projects and easy document sharing.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Saylor Academy",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://www.saylor.org/",
+    "Short Description": "Nonprofit initiative offering free and open online courses to all who want to learn.",
+    "Why it\\\\\\\"s useful for students": "Provides free, self-paced courses that can be used for college credit.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Modern States",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://modernstates.org/",
+    "Short Description": "Free online courses taught by professors from world-class universities, covering freshman-level college classes.",
+    "Why it\\\\\\\"s useful for students": "Helps students earn college credit through CLEP exams by providing free preparation courses.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "The Open University - OpenLearn",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://www.open.edu/openlearn/free-courses",
+    "Short Description": "Offers nearly 1000 free courses across various subject areas, available to start right away.",
+    "Why it\\\\\\\"s useful for students": "Provides flexible, self-paced learning opportunities with digital badges and certificates.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OER Commons",
+    "Type": "Website",
+    "Category": "Open Educational Resources",
+    "Link": "https://www.oercommons.org/",
+    "Short Description": "A public digital library of open educational resources. Explore, create, and collaborate with educators.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to a vast collection of teaching and learning materials, including textbooks and courses.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "Open Yale Courses",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://oyc.yale.edu/node/3",
+    "Short Description": "Provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.",
+    "Why it\\\\\\\"s useful for students": "Offers high-quality university-level education from Yale for free.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "University of the People (UoPeople)",
+    "Type": "Online University",
+    "Category": "General Education, Degrees",
+    "Link": "https://www.uopeople.edu/",
+    "Short Description": "Tuition-free online university offering accredited associate, bachelor, and MBA degrees.",
+    "Why it\\\\\\\"s useful for students": "Enables students to earn accredited degrees with flexible, tuition-free online programs.",
+    "Access type": "Free (tuition-free)"
+  },
+  {
+    "Title/Name": "Alison - Free Online Health and Medicine Courses",
+    "Type": "MOOC Platform",
+    "Category": "Health, Medicine",
+    "Link": "https://alison.com/courses/health",
+    "Short Description": "Free online health courses exploring vital aspects of health, including caring for others, mental well-being, nutrition, physical fitness.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses to gain knowledge in various health and medical fields.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Health & Medicine Courses",
+    "Type": "MOOC Platform",
+    "Category": "Health, Medicine",
+    "Link": "https://pll.harvard.edu/subject/health-medicine",
+    "Short Description": "Online courses from Harvard experts on various health and medicine topics.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality health and medical education from a leading university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenWHO.org",
+    "Type": "MOOC Platform",
+    "Category": "Public Health",
+    "Link": "https://openwho.org/",
+    "Short Description": "The World Health Organization's learning resource hub for health emergencies.",
+    "Why it\\\\\\\"s useful for students": "Provides vital knowledge on public health and emergency response from a global authority.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "BMJ Open",
+    "Type": "Journal",
+    "Category": "Medicine",
+    "Link": "https://bmjopen.bmj.com/",
+    "Short Description": "An online, open access journal, dedicated to publishing medical research from all disciplines and therapeutic areas.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to a wide range of peer-reviewed medical research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "JAMA Network Open",
+    "Type": "Journal",
+    "Category": "Medicine",
+    "Link": "https://jamanetwork.com/journals/jamanetworkopen",
+    "Short Description": "An international, peer-reviewed, open access, general medical journal that publishes research on clinical care, innovation in health.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to high-quality research in clinical medicine and healthcare innovation.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "CDC: Centers for Disease Control and Prevention",
+    "Type": "Website",
+    "Category": "Public Health",
+    "Link": "https://www.cdc.gov/index.html",
+    "Short Description": "Find diseases and conditions; healthy living; workplace safety; environmental health; injury, violence and safety; global health; travelers' health and more.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive information and resources on public health topics and disease prevention.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "TeachMeAnatomy",
+    "Type": "Website",
+    "Category": "Anatomy, Physiology",
+    "Link": "https://teachmeanatomy.info/",
+    "Short Description": "A platform full of human anatomy learning resources, allowing you to learn anatomy online using in-depth guides and interactive tools.",
+    "Why it\\\\\\\"s useful for students": "Offers in-depth guides and interactive tools for learning human anatomy.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Alison - Free Online Business Courses",
+    "Type": "MOOC Platform",
+    "Category": "Business, Finance",
+    "Link": "https://alison.com/courses/business",
+    "Short Description": "Free online business courses across finance, management, leadership, and more.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses to hone business skills and advance careers.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Free Business Courses",
+    "Type": "MOOC Platform",
+    "Category": "Business",
+    "Link": "https://pll.harvard.edu/subject/business/free",
+    "Short Description": "Free online courses on topics like negotiating salary, resilient leadership, and entrepreneurship.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality business education from a leading university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "My Own Business Institute (MOBI)",
+    "Type": "MOOC Platform",
+    "Category": "Business, Entrepreneurship",
+    "Link": "https://www.scu.edu/mobi/business-courses/",
+    "Short Description": "Leading provider of FREE online business courses to learn how to grow your business.",
+    "Why it\\\\\\\"s useful for students": "Provides practical knowledge and skills for starting and managing a business.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Coursera - Free Finance Courses",
+    "Type": "MOOC Platform",
+    "Category": "Finance",
+    "Link": "https://www.coursera.org/courses?query=free&skills=Finance",
+    "Short Description": "Free courses covering the fundamentals of banking, investments, and personal finance.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of courses to develop financial literacy and expertise.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Khan Academy - Personal Finance",
+    "Type": "Website",
+    "Category": "Personal Finance",
+    "Link": "https://www.khanacademy.org/college-careers-more/personal-finance",
+    "Short Description": "Units on saving and budgeting, interest and debt, investments and retirement, and income and benefits.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive free education on personal finance management.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SpringerOpen - Business Journals",
+    "Type": "Journal Aggregator",
+    "Category": "Business, Management",
+    "Link": "https://www.springeropen.com/p/business-management",
+    "Short Description": "Publishes a wide range of open access journals in Business, Management, and Law.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to peer-reviewed research in various business disciplines.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Journal of Business Research",
+    "Type": "Journal",
+    "Category": "Business",
+    "Link": "https://www.sciencedirect.com/journal/journal-of-business-research",
+    "Short Description": "Publishes research on all aspects of business, with open access options.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to scholarly articles and research in business.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Google Sheets",
+    "Type": "Software",
+    "Category": "Financial Modeling, Data Analysis",
+    "Link": "https://docs.google.com/spreadsheets/",
+    "Short Description": "Free, web-based spreadsheet program with many of the same features as Excel, with strong collaboration capabilities.",
+    "Why it\\\\\\\"s useful for students": "Excellent for collaborative financial modeling and data analysis, accessible from anywhere.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Art and Design Courses",
+    "Type": "MOOC Platform",
+    "Category": "Art, Design",
+    "Link": "https://alison.com/tag/art-and-design",
+    "Short Description": "Free online certificate courses in art and design, including drawing, painting, and graphic design.",
+    "Why it\\\\\\\"s useful for students": "Offers a variety of courses to develop artistic and design skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MoMA - Online courses",
+    "Type": "MOOC Platform",
+    "Category": "Art History",
+    "Link": "https://www.moma.org/teaching/classes",
+    "Short Description": "Explore the art of our time through four of MoMA's most popular courses: Modern Art and Ideas, Seeing Through Photographs, What Is Contemporary Art?, and more.",
+    "Why it\\\\\\\"s useful for students": "Provides insights into modern and contemporary art from a leading museum.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Princeton University Art Museum - Online Drawing Classes",
+    "Type": "MOOC",
+    "Category": "Art",
+    "Link": "https://artmuseum.princeton.edu/learn/art-making/online-drawing-classes",
+    "Short Description": "Free online drawing classes taught by artist-instructor Barbara DiLorenzo.",
+    "Why it\\\\\\\"s useful for students": "Offers live online drawing instruction from a university art museum.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Free Humanities Courses",
+    "Type": "MOOC Platform",
+    "Category": "Humanities",
+    "Link": "https://pll.harvard.edu/subject/humanities/free",
+    "Short Description": "Free online courses in humanities, including topics like digital humanities, ethics, and history.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality humanities education from a leading university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Open Yale Courses - Philosophy",
+    "Type": "MOOC Platform",
+    "Category": "Philosophy",
+    "Link": "https://oyc.yale.edu/philosophy",
+    "Short Description": "Provides free and open access to a selection of introductory courses in philosophy taught by distinguished teachers and scholars at Yale University.",
+    "Why it\\\\\\\"s useful for students": "Offers high-quality university-level philosophy education from Yale for free.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "musictheory.net",
+    "Type": "Website",
+    "Category": "Music Theory",
+    "Link": "https://www.musictheory.net/",
+    "Short Description": "Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive resource for learning and practicing music theory fundamentals.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Musicca",
+    "Type": "Website",
+    "Category": "Music Theory",
+    "Link": "https://www.musicca.com/",
+    "Short Description": "Enhances your ability to read, write, and play music through effective music theory exercises and engaging content.",
+    "Why it\\\\\\\"s useful for students": "Provides free, interactive tools and exercises for music theory learning.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MDPI - Arts Journal",
+    "Type": "Journal",
+    "Category": "Arts",
+    "Link": "https://www.mdpi.com/journal/arts",
+    "Short Description": "An international, peer-reviewed, open access journal promoting significant research on all aspects of the visual and performing arts.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to scholarly articles and research in various art forms.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Open Arts Journal",
+    "Type": "Journal",
+    "Category": "Arts",
+    "Link": "https://openartsjournal.org/",
+    "Short Description": "A rigorously compiled, peer-reviewed platform for arts scholarship open to diverse participants.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to high-quality, peer-reviewed arts scholarship.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Harvard University - Law Courses",
+    "Type": "MOOC Platform",
+    "Category": "Law",
+    "Link": "https://pll.harvard.edu/subject/law-0",
+    "Short Description": "Free online law courses, including CS50 for Lawyers and Contract Law.",
+    "Why it\\\\\\\"s useful for students": "Access to foundational legal education from a top university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Law Courses",
+    "Type": "MOOC Platform",
+    "Category": "Law",
+    "Link": "https://alison.com/tag/law",
+    "Short Description": "Free online law courses to become well-informed of rules and laws.",
+    "Why it\\\\\\\"s useful for students": "Provides a wide range of courses to understand legal concepts and systems.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Law Review Commons",
+    "Type": "Journal Aggregator",
+    "Category": "Law",
+    "Link": "https://lawreviewcommons.com/",
+    "Short Description": "Over 300 open-access law reviews with over 220,000 articles.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to a vast collection of legal scholarship and research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Journal of Open Access to Law",
+    "Type": "Journal",
+    "Category": "Law",
+    "Link": "https://ojs.law.cornell.edu/",
+    "Short Description": "A peer-reviewed, open access journal that publishes legal scholarship.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to current legal research and academic papers.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Google Scholar",
+    "Type": "Search Engine",
+    "Category": "Legal Research",
+    "Link": "https://scholar.google.com/",
+    "Short Description": "Searches across a wide range of scholarly literature, including legal opinions and journals.",
+    "Why it\\\\\\\"s useful for students": "A powerful tool for finding free legal articles, case law, and scholarly publications.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Legal Information Institute (LII) - Cornell Law School",
+    "Type": "Website",
+    "Category": "Legal Research",
+    "Link": "https://www.law.cornell.edu/",
+    "Short Description": "Provides free access to legal information, including the U.S. Code, Supreme Court decisions, and legal encyclopedias.",
+    "Why it\\\\\\\"s useful for students": "A comprehensive and reliable source for U.S. legal information.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Government Courses",
+    "Type": "MOOC Platform",
+    "Category": "Government, Political Science",
+    "Link": "https://pll.harvard.edu/subject/government",
+    "Short Description": "Free online courses on American constitutional democracy and government.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge in government and political science from a leading university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Hillsdale College Online Courses",
+    "Type": "MOOC Platform",
+    "Category": "Government, Political Science",
+    "Link": "https://online.hillsdale.edu/",
+    "Short Description": "Free courses on American history, government, and the Constitution.",
+    "Why it\\\\\\\"s useful for students": "Offers in-depth study of American civics and constitutional principles.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Coursera - Professional Development Courses",
+    "Type": "MOOC Platform",
+    "Category": "Professional Development",
+    "Link": "https://www.coursera.org/courses?query=professional%20development",
+    "Short Description": "Offers a wide range of free courses to build job-ready skills and advance careers.",
+    "Why it\\\\\\\"s useful for students": "Provides flexible learning opportunities to enhance professional skills and earn certificates.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Harvard University - Free Professional Development Courses",
+    "Type": "MOOC Platform",
+    "Category": "Professional Development, Leadership",
+    "Link": "https://pll.harvard.edu/catalog/free",
+    "Short Description": "Free online lessons to develop skills in leadership, resilience, and more.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality professional development content from Harvard.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "HP LIFE",
+    "Type": "MOOC Platform",
+    "Category": "Professional Development, Business",
+    "Link": "https://www.life-global.org/",
+    "Short Description": "Learn in-demand skills free of charge, including marketing, finance, and digital business skills.",
+    "Why it\\\\\\\"s useful for students": "Offers practical courses with certificates of completion to boost career prospects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "CareerOneStop",
+    "Type": "Website",
+    "Category": "Career Development",
+    "Link": "https://www.careeronestop.org/",
+    "Short Description": "Explore career options, assessments, career videos, and find training and education programs.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive resource for career planning, exploration, and skill development.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Coursera - Career Resource Hub",
+    "Type": "Website",
+    "Category": "Career Development",
+    "Link": "https://www.coursera.org/resources",
+    "Short Description": "Unlock your potential with free career development tools designed to support your learning and career growth.",
+    "Why it\\\\\\\"s useful for students": "Provides tools and resources to help students navigate their career paths.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Leadership Skills Courses",
+    "Type": "MOOC Platform",
+    "Category": "Leadership",
+    "Link": "https://alison.com/tag/leadership-skills",
+    "Short Description": "Free leadership courses covering communication, decision-making, conflict resolution, and strategic thinking.",
+    "Why it\\\\\\\"s useful for students": "Helps develop essential leadership qualities for various professional roles.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "NonprofitReady.org - Free Leadership Training",
+    "Type": "MOOC Platform",
+    "Category": "Leadership",
+    "Link": "https://www.nonprofitready.org/free-leadership-training",
+    "Short Description": "Offers free online courses, certificate programs, and how-to guides for nonprofit professionals.",
+    "Why it\\\\\\\"s useful for students": "Provides specialized leadership training relevant to the nonprofit sector.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Soft Skills for Professionals Training Course",
+    "Type": "MOOC Platform",
+    "Category": "Soft Skills",
+    "Link": "https://alison.com/course/soft-skills-for-professionals",
+    "Short Description": "Free online training course on 10 essential soft skills for professional life.",
+    "Why it\\\\\\\"s useful for students": "Helps improve crucial interpersonal and professional skills for workplace success.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Grow with Google - Free Online Skills Training",
+    "Type": "Website",
+    "Category": "Soft Skills, Professional Development",
+    "Link": "https://grow.google/intl/en_in/learn-skills/",
+    "Short Description": "Access free skills training programs developed by Google to help you get ahead in your career.",
+    "Why it\\\\\\\"s useful for students": "Offers practical skills training directly from a leading tech company.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Canva - Free Online Resume Builder",
+    "Type": "Tool",
+    "Category": "Resume Building",
+    "Link": "https://www.canva.com/create/resumes/",
+    "Short Description": "Free online resume builder with hundreds of designer-made templates.",
+    "Why it\\\\\\\"s useful for students": "Helps create professional and visually appealing resumes easily.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Indeed Resume Builder",
+    "Type": "Tool",
+    "Category": "Resume Building",
+    "Link": "https://www.resume.com/",
+    "Short Description": "Create a professional resume in minutes with 100+ templates and AI-powered writing assistance.",
+    "Why it\\\\\\\"s useful for students": "Simplifies resume creation with professional templates and AI support.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenLearn - Nature & Environment",
+    "Type": "MOOC Platform",
+    "Category": "Environmental Science, Sustainability",
+    "Link": "https://www.open.edu/openlearn/nature-environment/free-courses",
+    "Short Description": "Offers free courses on various environmental topics, including climate change and sustainable transport.",
+    "Why it\\\\\\\"s useful for students": "Provides accessible learning opportunities on critical environmental issues.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT OpenCourseWare - Environment & Sustainability",
+    "Type": "MOOC Platform",
+    "Category": "Environmental Science, Sustainability",
+    "Link": "https://ocw.mit.edu/collections/environment/",
+    "Short Description": "Collection of free online course materials on earth systems, climate science, and engineering for sustainability.",
+    "Why it\\\\\\\"s useful for students": "Access to university-level environmental science and sustainability courses from MIT.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Environmental Science Courses",
+    "Type": "MOOC Platform",
+    "Category": "Environmental Science",
+    "Link": "https://alison.com/tag/environmental-science",
+    "Short Description": "Free online courses teaching about physical, chemical, and biological processes on Earth.",
+    "Why it\\\\\\\"s useful for students": "Offers foundational knowledge in environmental science for free.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SDG Academy",
+    "Type": "MOOC Platform",
+    "Category": "Sustainability",
+    "Link": "https://sdgacademy.org/",
+    "Short Description": "Offers 50+ free Massive Open Online Courses on sustainable development taught by global faculty.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive education on the United Nations Sustainable Development Goals.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "UNITAR - Free and Open Courses",
+    "Type": "MOOC Platform",
+    "Category": "Sustainability",
+    "Link": "https://unitar.org/free-and-open-courses",
+    "Short Description": "Free and open courses for the public on topics like integrated planning for climate change and human rights and the environment.",
+    "Why it\\\\\\\"s useful for students": "Offers UN-backed courses on global sustainability challenges.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Environments (MDPI)",
+    "Type": "Journal",
+    "Category": "Environmental Science",
+    "Link": "https://www.mdpi.com/journal/environments",
+    "Short Description": "An international, peer-reviewed, open access journal on environmental sciences.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to current research in environmental sciences.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Journal of Environmental Sciences (Elsevier)",
+    "Type": "Journal",
+    "Category": "Environmental Science",
+    "Link": "https://www.sciencedirect.com/journal/journal-of-environmental-sciences",
+    "Short Description": "Publishes high-quality and novel information about issues of global relevance in environmental science.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to peer-reviewed articles on environmental research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "EPA - Climate Change Resources for Educators and Students",
+    "Type": "Website",
+    "Category": "Climate Change",
+    "Link": "https://www.epa.gov/climate-change/climate-change-resources-educators-and-students",
+    "Short Description": "Provides federal and non-governmental resources for students and educators to learn about and teach climate change.",
+    "Why it\\\\\\\"s useful for students": "Offers reliable information and educational materials on climate change from a government agency.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SubjectToClimate",
+    "Type": "Website",
+    "Category": "Climate Change",
+    "Link": "https://subjecttoclimate.org/",
+    "Short Description": "A connector to free climate resources for all K-12 subjects, empowering action on climate change.",
+    "Why it\\\\\\\"s useful for students": "Provides free, peer-reviewed climate education resources for various age groups.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "ConservationTraining.org",
+    "Type": "MOOC Platform",
+    "Category": "Conservation",
+    "Link": "https://www.conservationtraining.org/",
+    "Short Description": "Access free conservation courses from The Nature Conservancy and partner organizations.",
+    "Why it\\\\\\\"s useful for students": "Offers specialized training in conservation for aspiring and current professionals.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Data Science Courses",
+    "Type": "MOOC Platform",
+    "Category": "Data Science",
+    "Link": "https://pll.harvard.edu/subject/data-science",
+    "Short Description": "Free online courses to learn how to use Python to harness and analyze data.",
+    "Why it\\\\\\\"s useful for students": "Access to foundational data science education from a top university.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "IBM SkillsBuild - Free Data Science Courses for Students",
+    "Type": "MOOC Platform",
+    "Category": "Data Science",
+    "Link": "https://skillsbuild.org/students/course-catalog/data-science",
+    "Short Description": "Develop skills for a future in data science with learning programs led by tech experts.",
+    "Why it\\\\\\\"s useful for students": "Provides industry-relevant data science training for students.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT Open Learning - Free Data Science Courses",
+    "Type": "MOOC Platform",
+    "Category": "Data Science",
+    "Link": "https://openlearning.mit.edu/news/15-free-mit-data-science-courses",
+    "Short Description": "15 free MIT data science courses covering linear algebra, calculus, probability, and statistics.",
+    "Why it\\\\\\\"s useful for students": "Access to foundational math and statistics for data science from MIT.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Coursera - Free Data Analysis Courses",
+    "Type": "MOOC Platform",
+    "Category": "Data Analytics",
+    "Link": "https://www.coursera.org/courses?query=free&skills=Data%20Analysis",
+    "Short Description": "Offers popular free courses like Excel Basics for Data Analysis and Introduction to Data Analytics.",
+    "Why it\\\\\\\"s useful for students": "Provides practical skills for data analysis using common tools.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Google - Data Analytics Certificate",
+    "Type": "Certification",
+    "Category": "Data Analytics",
+    "Link": "https://grow.google/certificates/data-analytics/",
+    "Short Description": "A professional data analytics certificate to gain in-demand skills in R programming, SQL, Python, and Tableau.",
+    "Why it\\\\\\\"s useful for students": "Prepares students for entry-level data analyst jobs with a recognized certification.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Harvard Data Science Review",
+    "Type": "Journal",
+    "Category": "Data Science",
+    "Link": "https://hdsr.mitpress.mit.edu/",
+    "Short Description": "An open access journal of the Harvard Data Science Initiative publishing research on data science.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to cutting-edge research and insights in data science.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Data Science Journal (CODATA)",
+    "Type": "Journal",
+    "Category": "Data Science",
+    "Link": "https://datascience.codata.org/",
+    "Short Description": "A peer-reviewed, open access, electronic journal publishing papers on the management, dissemination, use and reuse of research data.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to scholarly articles on data management and research data.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Tableau Public",
+    "Type": "Tool",
+    "Category": "Data Visualization",
+    "Link": "https://public.tableau.com/",
+    "Short Description": "A free platform to create and share interactive data visualizations.",
+    "Why it\\\\\\\"s useful for students": "Enables students to build a portfolio of data visualizations and learn a widely used tool.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Microsoft Power BI Desktop",
+    "Type": "Tool",
+    "Category": "Data Visualization",
+    "Link": "https://powerbi.microsoft.com/en-us/downloads/",
+    "Short Description": "Free desktop application for creating interactive reports and dashboards.",
+    "Why it\\\\\\\"s useful for students": "Provides a powerful tool for data analysis and visualization, widely used in business.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Google Data Studio (Looker Studio)",
+    "Type": "Tool",
+    "Category": "Data Visualization",
+    "Link": "https://lookerstudio.google.com/",
+    "Short Description": "Free, web-based tool to turn data into informative, easy-to-read, and customizable dashboards and reports.",
+    "Why it\\\\\\\"s useful for students": "Integrates well with other Google services and is excellent for creating shareable reports.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Google for Developers - Machine Learning Crash Course",
+    "Type": "MOOC Platform",
+    "Category": "Machine Learning",
+    "Link": "https://developers.google.com/machine-learning/crash-course",
+    "Short Description": "Google's fast-paced, practical introduction to machine learning, with videos, interactive visualizations, and hands-on practice.",
+    "Why it\\\\\\\"s useful for students": "Provides a solid foundation in machine learning concepts directly from Google.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Microsoft - Machine Learning for Beginners",
+    "Type": "Open-source Repository",
+    "Category": "Machine Learning",
+    "Link": "https://microsoft.github.io/ML-For-Beginners/",
+    "Short Description": "A 12-week, 26-lesson curriculum all about classic machine learning.",
+    "Why it\\\\\\\"s useful for students": "Offers a structured, beginner-friendly curriculum for learning machine learning.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "Alison - Free Online Engineering & Construction Courses",
+    "Type": "MOOC Platform",
+    "Category": "Engineering",
+    "Link": "https://alison.com/courses/engineering",
+    "Short Description": "Completely free engineering courses covering various disciplines.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational engineering knowledge without cost.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT OpenCourseWare - Mechanical Engineering",
+    "Type": "MOOC Platform",
+    "Category": "Engineering",
+    "Link": "https://ocw.mit.edu/courses/mechanical-engineering/",
+    "Short Description": "Free online course materials for mechanical engineering from MIT.",
+    "Why it\\\\\\\"s useful for students": "Access to university-level mechanical engineering content from a top institution.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Engineer4Free",
+    "Type": "Website",
+    "Category": "Engineering",
+    "Link": "https://www.engineer4free.com/",
+    "Short Description": "A tutorial site where anyone can learn university level engineering for free through YouTube tutorials.",
+    "Why it\\\\\\\"s useful for students": "Offers free, accessible tutorials for various engineering subjects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SpringerOpen - Engineering Journals",
+    "Type": "Journal Aggregator",
+    "Category": "Engineering",
+    "Link": "https://www.springeropen.com/p/engineering",
+    "Short Description": "Publishes more than 30 open access journals in Engineering, ranging from civil and mechanical engineering to robotics.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to a wide range of peer-reviewed engineering research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "FreeCAD",
+    "Type": "Software",
+    "Category": "CAD Software",
+    "Link": "https://www.freecad.org/",
+    "Short Description": "An open-source parametric 3D modeler made primarily to design real-life objects of any size.",
+    "Why it\\\\\\\"s useful for students": "A powerful and free tool for 3D design and mechanical engineering projects.",
+    "Access type": "Open-source"
+  },
+  {
+    "Title/Name": "Tinkercad",
+    "Type": "Web App",
+    "Category": "CAD Software, Electronics Simulation",
+    "Link": "https://www.tinkercad.com/",
+    "Short Description": "A free web app for 3D design, electronics, and coding, ideal for beginners.",
+    "Why it\\\\\\\"s useful for students": "Easy-to-use platform for introductory design and electronics simulation.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "LTspice",
+    "Type": "Software",
+    "Category": "Electronics Simulation",
+    "Link": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html",
+    "Short Description": "A powerful, fast, and free SPICE simulator software for circuit design.",
+    "Why it\\\\\\\"s useful for students": "Essential tool for electrical engineering students to simulate and test circuits.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT Open Learning - Free Online Writing Courses",
+    "Type": "MOOC Platform",
+    "Category": "Creative Writing",
+    "Link": "https://openlearning.mit.edu/news/fuel-your-passion-storytelling-16-free-online-courses-mit",
+    "Short Description": "16 free online courses from MIT Open Learning to guide through every stage of the writing process.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality writing instruction from MIT.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenLearn - Start writing fiction",
+    "Type": "MOOC Platform",
+    "Category": "Creative Writing",
+    "Link": "https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-0",
+    "Short Description": "A free course to gain insight into how authors create characters and settings.",
+    "Why it\\\\\\\"s useful for students": "Provides foundational knowledge for aspiring fiction writers.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Creative Writing Courses",
+    "Type": "MOOC Platform",
+    "Category": "Creative Writing",
+    "Link": "https://alison.com/tag/creative-writing",
+    "Short Description": "Free online courses to teach how to craft original and self-expressive writing.",
+    "Why it\\\\\\\"s useful for students": "Offers a variety of courses to develop creative writing skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "NBCU Academy - Fundamentals of Journalism Course",
+    "Type": "MOOC Platform",
+    "Category": "Journalism",
+    "Link": "https://nbcuacademy.com/course/fundamentals-of-journalism/",
+    "Short Description": "Free online course to learn the fundamentals of journalism from world-class journalists at NBCU News Group.",
+    "Why it\\\\\\\"s useful for students": "Provides practical insights into the basics of journalism from industry professionals.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Thomson Foundation - Journalism Now",
+    "Type": "MOOC Platform",
+    "Category": "Journalism",
+    "Link": "https://www.thomsonfoundation.org/e-learning/live-courses/",
+    "Short Description": "Free online interactive courses designed and led by industry experts.",
+    "Why it\\\\\\\"s useful for students": "Offers specialized training in journalism with a focus on current industry practices.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "JournalismCourses.org",
+    "Type": "Website",
+    "Category": "Journalism",
+    "Link": "https://journalismcourses.org/",
+    "Short Description": "Offers a range of training opportunities—including online courses, workshops, webinars, e-books, and guides—to help journalists strengthen their skills.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive resource for journalists to enhance their skills and stay updated.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "DOAJ - Directory of Open Access Journals (Literature)",
+    "Type": "Journal Aggregator",
+    "Category": "Literary Studies",
+    "Link": "https://doaj.org/",
+    "Short Description": "A community-curated online directory that indexes and provides access to high quality, open access, peer-reviewed journals in literature.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to a vast collection of scholarly literature and literary theory.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Open Library of Humanities",
+    "Type": "Journal Aggregator",
+    "Category": "Humanities, Literary Studies",
+    "Link": "https://www.openlibhums.org/journals/",
+    "Short Description": "Publishes leading scholarship in the humanities through diamond open-access journals.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to high-quality academic research in the humanities.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Grammarly",
+    "Type": "Tool",
+    "Category": "Writing Assistant",
+    "Link": "https://www.grammarly.com/",
+    "Short Description": "Free AI writing assistance to instantly correct grammatical mistakes, typos, punctuation, and spelling errors.",
+    "Why it\\\\\\\"s useful for students": "Improves writing quality and helps students produce error-free assignments.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Quill.org",
+    "Type": "Tool",
+    "Category": "Writing Practice",
+    "Link": "https://www.quill.org/",
+    "Short Description": "Free tools to make students better writers and readers through interactive literacy activities.",
+    "Why it\\\\\\\"s useful for students": "Provides engaging exercises to build reading comprehension and writing skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Coursera - Free Courses & Certificates",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://www.coursera.org/courses?query=free",
+    "Short Description": "Explore and compare free courses and certificates from leading universities and companies.",
+    "Why it\\\\\\\"s useful for students": "Offers a vast array of subjects and professional certificates from reputable institutions.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "Alison - Free Online Courses & Online Learning",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://alison.com/",
+    "Short Description": "Explore 5,500+ free online courses across various fields like IT, Health, Language, Business, and Engineering.",
+    "Why it\\\\\\\"s useful for students": "Provides a wide range of free courses with certificates to expand knowledge and skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "edX - Free Online Courses",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://www.edx.org/courses?q=free+online+courses",
+    "Short Description": "Browse top-notch, free online courses from world-class institutions like Harvard, MIT, and Google.",
+    "Why it\\\\\\\"s useful for students": "Offers high-quality courses across diverse subjects, many of which can be audited for free.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "MOOC.org",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://www.mooc.org/",
+    "Short Description": "Massive Open Online Courses (MOOCs) from Harvard, MIT, Microsoft and other top universities and institutions.",
+    "Why it\\\\\\\"s useful for students": "Provides an affordable and flexible way to learn new skills and advance careers.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenLearn - The Open University",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://www.open.edu/openlearn/free-courses",
+    "Short Description": "Nearly 1000 free courses across 8 different subject areas, available to start right away.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide variety of free courses for personal and professional development.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Open Yale Courses",
+    "Type": "MOOC Platform",
+    "Category": "General Education",
+    "Link": "https://oyc.yale.edu/node/3",
+    "Short Description": "Provides free and open access to a selection of introductory courses taught by distinguished teachers and scholars at Yale University.",
+    "Why it\\\\\\\"s useful for students": "Access to high-quality introductory courses from Yale University.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Khan Academy",
+    "Type": "Website",
+    "Category": "General Education",
+    "Link": "https://www.khanacademy.org/",
+    "Short Description": "Learn for free about math, art, computer programming, economics, physics, chemistry, biology, medicine, finance, history, and more.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive and free learning platform for K-12 and college-level subjects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenStax",
+    "Type": "Website",
+    "Category": "Textbooks",
+    "Link": "https://openstax.org/",
+    "Short Description": "Offers free college textbooks for all types of students, making education accessible & affordable.",
+    "Why it\\\\\\\"s useful for students": "Provides free, peer-reviewed, open educational resources for higher education.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Health and Medicine Courses",
+    "Type": "MOOC Platform",
+    "Category": "Health, Medicine",
+    "Link": "https://alison.com/courses/health",
+    "Short Description": "Explore vital aspects of health, including caring for others, mental well-being, nutrition, and physical fitness.",
+    "Why it\\\\\\\"s useful for students": "Provides free foundational knowledge in various health and medicine topics.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Health & Medicine Courses",
+    "Type": "MOOC Platform",
+    "Category": "Health, Medicine",
+    "Link": "https://pll.harvard.edu/subject/health-medicine",
+    "Short Description": "Online courses from Harvard Health Publishing on topics like staying mentally sharp and medical terminology.",
+    "Why it\\\\\\\"s useful for students": "Access to health and medicine insights from Harvard experts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "FutureLearn - Online Healthcare & Medical Courses",
+    "Type": "MOOC Platform",
+    "Category": "Healthcare, Medicine",
+    "Link": "https://www.futurelearn.com/subjects/healthcare-medicine-courses",
+    "Short Description": "Free online medical courses with top universities to dive into the complex world of healthcare.",
+    "Why it\\\\\\\"s useful for students": "Offers professional development training and insights into healthcare.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "OpenWHO.org",
+    "Type": "MOOC Platform",
+    "Category": "Public Health",
+    "Link": "https://openwho.org/",
+    "Short Description": "The World Health Organization's learning resource hub for health emergencies. No registration, no certificates — just vital knowledge to save lives.",
+    "Why it\\\\\\\"s useful for students": "Provides essential public health knowledge directly from the WHO.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "CDC - Public Health 101 Series",
+    "Type": "MOOC Platform",
+    "Category": "Public Health",
+    "Link": "https://www.cdc.gov/training-publichealth101/php/index.html",
+    "Short Description": "Introductory courses designed for people interested in public health and public health professionals seeking a refresher.",
+    "Why it\\\\\\\"s useful for students": "Offers foundational public health knowledge from the Centers for Disease Control and Prevention.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "JAMA Network Open",
+    "Type": "Journal",
+    "Category": "Medical Research",
+    "Link": "https://jamanetwork.com/journals/jamanetworkopen",
+    "Short Description": "Explore the latest research in hypertension, diabetes, stroke, Alzheimer disease, and more, all completely free and open access.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to peer-reviewed medical research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "BMJ Open",
+    "Type": "Journal",
+    "Category": "Medical Research",
+    "Link": "https://bmjopen.bmj.com/",
+    "Short Description": "An online, open access journal, dedicated to publishing medical research from all disciplines and therapeutic areas.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to a wide range of medical research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "The Cureus Journal of Medical Science",
+    "Type": "Journal",
+    "Category": "Medical Research",
+    "Link": "https://www.cureus.com/",
+    "Short Description": "Provides free Gold Open Access to credible medical science.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to peer-reviewed medical articles.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Alison - Free Online Nursing Courses",
+    "Type": "MOOC Platform",
+    "Category": "Nursing",
+    "Link": "https://alison.com/tag/nursing",
+    "Short Description": "Boost your nursing skills and master the latest developments in patient care.",
+    "Why it\\\\\\\"s useful for students": "Provides free courses for nursing students and professionals to enhance their skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Business Courses",
+    "Type": "MOOC Platform",
+    "Category": "Business, Finance",
+    "Link": "https://alison.com/courses/business",
+    "Short Description": "Choose from hundreds of free online business courses across finance, management, leadership, and more.",
+    "Why it\\\\\\\"s useful for students": "Hone skills in various business aspects without cost.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Free Business Courses",
+    "Type": "MOOC Platform",
+    "Category": "Business",
+    "Link": "https://pll.harvard.edu/subject/business/free",
+    "Short Description": "Free business courses covering topics like negotiating salary, resilient leadership, and entrepreneurship.",
+    "Why it\\\\\\\"s useful for students": "Access to business insights from Harvard University.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "My Own Business Institute (MOBI)",
+    "Type": "MOOC Platform",
+    "Category": "Entrepreneurship, Business",
+    "Link": "https://www.scu.edu/mobi/",
+    "Short Description": "The leading provider of FREE online business courses to learn how to start, manage, and grow your own business.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive free online entrepreneurship education.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "HP LIFE",
+    "Type": "MOOC Platform",
+    "Category": "Business, Finance",
+    "Link": "https://www.life-global.org/",
+    "Short Description": "Learn in-demand skills free of charge, including marketing, finance, and digital business skills, with certificates of completion.",
+    "Why it\\\\\\\"s useful for students": "Provides practical business skills and certifications for free.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT OpenCourseWare - Entrepreneurship",
+    "Type": "MOOC Platform",
+    "Category": "Entrepreneurship",
+    "Link": "https://ocw.mit.edu/collections/entrepreneurship/",
+    "Short Description": "A selection of entrepreneurship-related courses offered at MIT.",
+    "Why it\\\\\\\"s useful for students": "Access to university-level entrepreneurship content from MIT.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Finance Courses",
+    "Type": "MOOC Platform",
+    "Category": "Finance",
+    "Link": "https://alison.com/tag/finance",
+    "Short Description": "Learn the basics of stocks, behavioral finance, currency exchange, and personal finance management.",
+    "Why it\\\\\\\"s useful for students": "Offers free courses to understand financial concepts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Corporate Finance Institute - Free Courses & Resources",
+    "Type": "MOOC Platform",
+    "Category": "Finance",
+    "Link": "https://help.corporatefinanceinstitute.com/article/307-free-courses-and-resources",
+    "Short Description": "CFI offers one full course for free: Careers in Finance, a comprehensive introduction to all aspects of the finance industry.",
+    "Why it\\\\\\\"s useful for students": "Provides a solid introduction to the finance industry.",
+    "Access type": "Freemium"
+  },
+  {
+    "Title/Name": "McGill Personal Finance Essentials",
+    "Type": "MOOC Platform",
+    "Category": "Personal Finance",
+    "Link": "https://www.mcgillpersonalfinance.com/",
+    "Short Description": "A free course to learn financial literacy, key to achieving important life goals.",
+    "Why it\\\\\\\"s useful for students": "Helps students develop essential personal finance skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "AccountingCoach",
+    "Type": "Website",
+    "Category": "Accounting",
+    "Link": "https://www.accountingcoach.com/",
+    "Short Description": "Learn Accounting for Free with topics like Accounting Basics, Debits and Credits, Chart of Accounts, and Bookkeeping.",
+    "Why it\\\\\\\"s useful for students": "Provides free, comprehensive resources for learning accounting fundamentals.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "The Open University - Introduction to bookkeeping and accounting",
+    "Type": "MOOC Platform",
+    "Category": "Accounting",
+    "Link": "https://www.open.edu/openlearn/money-business/introduction-bookkeeping-and-accounting/content-section-0",
+    "Short Description": "Explains the fundamental rules of double-entry bookkeeping and how they are used to produce financial statements.",
+    "Why it\\\\\\\"s useful for students": "Offers a free introduction to essential accounting principles.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "SpringerOpen - Business Journals",
+    "Type": "Journal Aggregator",
+    "Category": "Business, Management",
+    "Link": "https://www.springeropen.com/p/business-management",
+    "Short Description": "Publishes a wide range of open access journals in Business, Management, and Law.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to peer-reviewed business and management research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Class Central",
+    "Type": "MOOC Aggregator",
+    "Category": "General Education",
+    "Link": "https://www.classcentral.com/",
+    "Short Description": "Aggregates courses from many providers to help you find the best courses on almost any subject, wherever they exist.",
+    "Why it\\\\\\\"s useful for students": "Centralized platform to discover free and paid online courses from various universities and platforms.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MOOC List",
+    "Type": "MOOC Aggregator",
+    "Category": "General Education",
+    "Link": "https://www.mooc-list.com/",
+    "Short Description": "A complete list of MOOCs and free online courses from Coursera, edX, FutureLearn, Udacity, and other Top Providers and Universities.",
+    "Why it\\\\\\\"s useful for students": "Helps users find MOOCs with multiple criteria, covering a wide range of subjects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Open Culture - Free Online Courses",
+    "Type": "MOOC Aggregator",
+    "Category": "General Education",
+    "Link": "https://www.openculture.com/freeonlinecourses",
+    "Short Description": "A collection of 1,700 free online courses from universities like Yale, MIT, Harvard, Oxford and more.",
+    "Why it\\\\\\\"s useful for students": "Provides a vast directory of free university-level courses across various disciplines.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Art and Design Courses",
+    "Type": "MOOC Platform",
+    "Category": "Art & Design",
+    "Link": "https://alison.com/tag/art-and-design",
+    "Short Description": "Learn how to become a professional tattoo artist, how to draw lifelike portraits or how to design stylish posters.",
+    "Why it\\\\\\\"s useful for students": "Offers free online certificate courses to develop art and design skills.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MoMA - Online courses",
+    "Type": "MOOC Platform",
+    "Category": "Art History",
+    "Link": "https://www.moma.org/teaching/classes",
+    "Short Description": "Explore the art of our time through courses like Modern Art and Ideas, Seeing Through Photographs, and What Is Contemporary Art?.",
+    "Why it\\\\\\\"s useful for students": "Access to art history and contemporary art education from the Museum of Modern Art.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Princeton University Art Museum - Online Drawing Classes",
+    "Type": "Course",
+    "Category": "Art",
+    "Link": "https://artmuseum.princeton.edu/learn/art-making/online-drawing-classes",
+    "Short Description": "Free online drawing classes taught by artist-instructor Barbara DiLorenzo.",
+    "Why it\\\\\\\"s useful for students": "Provides free, accessible drawing instruction from a university art museum.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Free Humanities Courses",
+    "Type": "MOOC Platform",
+    "Category": "Humanities",
+    "Link": "https://pll.harvard.edu/subject/humanities/free",
+    "Short Description": "Free humanities courses covering topics like PredictionX: Omens, Oracles & Prophecies, and Digital Humanities in Practice.",
+    "Why it\\\\\\\"s useful for students": "Access to humanities insights from Harvard University.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenLearn - History & The Arts",
+    "Type": "MOOC Platform",
+    "Category": "History, Arts",
+    "Link": "https://www.open.edu/openlearn/history-the-arts/free-courses",
+    "Short Description": "Free courses across history and the arts, allowing users to earn personal learning profiles and records of achievements.",
+    "Why it\\\\\\\"s useful for students": "Offers a wide range of free courses in history and arts for personal development.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MDPI - Arts | An Open Access Journal",
+    "Type": "Journal",
+    "Category": "Arts",
+    "Link": "https://www.mdpi.com/journal/arts",
+    "Short Description": "An international, peer-reviewed, open access journal promoting significant research on all aspects of the visual and performing arts.",
+    "Why it\\\\\\\"s useful for students": "Provides free access to scholarly research in visual and performing arts.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Open Arts Journal",
+    "Type": "Journal",
+    "Category": "Arts",
+    "Link": "https://openartsjournal.org/",
+    "Short Description": "Addresses the demand for a rigorously compiled, peer-reviewed platform for arts scholarship open to diverse participants.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to high-quality, peer-reviewed arts scholarship.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "musictheory.net",
+    "Type": "Website",
+    "Category": "Music Theory",
+    "Link": "https://www.musictheory.net/",
+    "Short Description": "Introductory and intermediate music theory lessons, exercises, ear trainers, and calculators.",
+    "Why it\\\\\\\"s useful for students": "Provides comprehensive and interactive tools for learning music theory.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Musicca",
+    "Type": "Website",
+    "Category": "Music Theory",
+    "Link": "https://www.musicca.com/",
+    "Short Description": "Enhances your ability to read, write, and play music through effective music theory exercises and engaging content.",
+    "Why it\\\\\\\"s useful for students": "Offers free, interactive tools for music theory learning.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "The Open University - An introduction to music theory",
+    "Type": "MOOC Platform",
+    "Category": "Music Theory",
+    "Link": "https://www.open.edu/openlearn/history-the-arts/music/an-introduction-music-theory/content-section-0",
+    "Short Description": "Introduces music staves, clefs, rhythmic and pitch values, rhythmic metre and time signatures.",
+    "Why it\\\\\\\"s useful for students": "Provides a free introduction to fundamental music theory concepts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Open Culture - Free Philosophy Courses",
+    "Type": "MOOC Aggregator",
+    "Category": "Philosophy",
+    "Link": "https://www.openculture.com/philosophy_free_courses",
+    "Short Description": "Get free Philosophy courses from the world's leading universities, available as audio & video.",
+    "Why it\\\\\\\"s useful for students": "Access to a wide range of philosophy courses from top institutions.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "MIT Philosophy - MITx",
+    "Type": "MOOC Platform",
+    "Category": "Philosophy",
+    "Link": "http://philosophy.mit.edu/mitx/",
+    "Short Description": "Five online philosophy courses, each offered once a year, with certificates and awards for high performance.",
+    "Why it\\\\\\\"s useful for students": "Offers structured philosophy courses from MIT with recognition for completion.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "GCFGlobal",
+    "Type": "Website",
+    "Category": "General Education, Digital Literacy",
+    "Link": "https://edu.gcfglobal.org/en/",
+    "Short Description": "Offers free learning resources on more than 200 topics, including Microsoft Office, email, reading, and math.",
+    "Why it\\\\\\\"s useful for students": "Provides practical skills for digital literacy and everyday life.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "United Nations e-Learning courses",
+    "Type": "MOOC Platform",
+    "Category": "International Relations, Sustainable Development",
+    "Link": "https://unric.org/en/sharpen-your-skills-during-lockdown-with-united-nations-e-learning-courses/",
+    "Short Description": "An overview of e-Learning tools and online courses offered by the United Nations System, with hundreds of courses.",
+    "Why it\\\\\\\"s useful for students": "Access to courses on international development, peace, and sustainability from the UN.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OER Global",
+    "Type": "Website",
+    "Category": "Open Educational Resources",
+    "Link": "https://www.oeglobal.org/",
+    "Short Description": "Dedicated to the growth and support of open education practices and the creation and use of open education resources.",
+    "Why it\\\\\\\"s useful for students": "A hub for open educational resources and practices globally.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Pressbooks Directory",
+    "Type": "Directory",
+    "Category": "Open Textbooks",
+    "Link": "https://pressbooks.directory/",
+    "Short Description": "A free, searchable catalog that includes 8,228 open access books published by 202 organizations and networks using Pressbooks.",
+    "Why it\\\\\\\"s useful for students": "Provides a vast collection of free, open access textbooks for various disciplines.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Law Courses",
+    "Type": "MOOC Platform",
+    "Category": "Law",
+    "Link": "https://pll.harvard.edu/subject/law-0",
+    "Short Description": "Free law courses including CS50 for Lawyers and Contract Law: From Trust to Promise to Contract.",
+    "Why it\\\\\\\"s useful for students": "Access to foundational legal education from Harvard University.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Law Courses",
+    "Type": "MOOC Platform",
+    "Category": "Law",
+    "Link": "https://alison.com/tag/law",
+    "Short Description": "Free online Law courses to become well-informed of the rules and laws within your homes, organisations, communities, and the country you live in.",
+    "Why it\\\\\\\"s useful for students": "Provides free legal education for general knowledge and professional development.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "OpenLearn - Society, Politics & Law",
+    "Type": "MOOC Platform",
+    "Category": "Law, Politics",
+    "Link": "https://www.open.edu/openlearn/society/free-courses",
+    "Short Description": "Free courses covering key legal concepts and political systems.",
+    "Why it\\\\\\\"s useful for students": "Offers free courses to understand legal and political frameworks.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Law Review Commons",
+    "Type": "Journal Aggregator",
+    "Category": "Law",
+    "Link": "https://lawreviewcommons.com/",
+    "Short Description": "Over 300 open-access law reviews with over 220,000 articles, including free current issues & archives from 1852.",
+    "Why it\\\\\\\"s useful for students": "Provides extensive free access to legal scholarship and historical legal documents.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "Journal of Open Access to Law",
+    "Type": "Journal",
+    "Category": "Law",
+    "Link": "https://ojs.law.cornell.edu/",
+    "Short Description": "An open access journal for legal scholarship.",
+    "Why it\\\\\\\"s useful for students": "Offers free access to peer-reviewed legal research.",
+    "Access type": "Open Access"
+  },
+  {
+    "Title/Name": "American Bar Association - Free Legal Help",
+    "Type": "Legal Aid",
+    "Category": "Law",
+    "Link": "https://www.americanbar.org/groups/legal_services/flh-home/flh-free-legal-help/",
+    "Short Description": "Online pro bono program that matches low-income clients with volunteer lawyers, who agree to provide brief answers online for free.",
+    "Why it\\\\\\\"s useful for students": "Provides access to free legal advice for those who qualify.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "LawHelp.org",
+    "Type": "Legal Aid",
+    "Category": "Law",
+    "Link": "https://www.lawhelp.org/",
+    "Short Description": "Provides free legal rights resources, court forms, self-advocacy tools and referrals to nonprofit legal aid organizations in every state.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive resource for free legal information and assistance.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Harvard University - Government Courses",
+    "Type": "MOOC Platform",
+    "Category": "Government, Political Science",
+    "Link": "https://pll.harvard.edu/subject/government",
+    "Short Description": "Gain a foundational knowledge of American constitutional democracy.",
+    "Why it\\\\\\\"s useful for students": "Offers free courses on American government and political science from Harvard.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Alison - Free Online Government Courses",
+    "Type": "MOOC Platform",
+    "Category": "Government, Political Science",
+    "Link": "https://alison.com/tag/government",
+    "Short Description": "These free online government courses will give you a better understanding of the different political systems.",
+    "Why it\\\\\\\"s useful for students": "Provides free education on political systems and governance.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Hillsdale College Online Courses",
+    "Type": "MOOC Platform",
+    "Category": "Government, Political Science",
+    "Link": "https://online.hillsdale.edu/",
+    "Short Description": "Free courses taught by Hillsdale College faculty to pursue knowledge of the highest things, form character, and defend constitutional government.",
+    "Why it\\\\\\\"s useful for students": "Offers free courses on American government and political thought.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Saylor Academy - Political Science",
+    "Type": "MOOC Platform",
+    "Category": "Political Science",
+    "Link": "https://learn.saylor.org/course/index.php?categoryid=15",
+    "Short Description": "Offers free certificates of completion for online Political Science courses, with many eligible for college credit.",
+    "Why it\\\\\\\"s useful for students": "Provides free, college-level political science courses with optional credit.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Kurzgesagt",
+    "Type": "YouTube Channel",
+    "Category": "Science, Education",
+    "Link": "https://youtube.com/user/kurzgesagt",
+    "Short Description": "Animated educational videos explaining complex topics in science, philosophy, and technology.",
+    "Why it\\\\\\\"s useful for students": "Highly rated resource with a score of 94. Makes complex topics accessible through engaging animations.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Crash Course",
+    "Type": "YouTube Channel",
+    "Category": "General Education",
+    "Link": "https://youtube.com/user/crashcourse",
+    "Short Description": "Educational videos covering a wide range of subjects from history to science.",
+    "Why it\\\\\\\"s useful for students": "Highly rated resource with a score of 87. Comprehensive coverage of academic subjects.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "TED-Ed",
+    "Type": "YouTube Channel",
+    "Category": "General Education",
+    "Link": "https://youtube.com/user/TEDEducation",
+    "Short Description": "Educational videos featuring expert educators and animators.",
+    "Why it\\\\\\\"s useful for students": "Highly rated resource with a score of 86. High-quality educational content from experts.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "CGP Grey",
+    "Type": "YouTube Channel",
+    "Category": "General Education",
+    "Link": "https://youtube.com/user/CGPGrey",
+    "Short Description": "Educational videos explaining complex topics in politics, geography, and history.",
+    "Why it\\\\\\\"s useful for students": "Highly rated resource with a score of 81. Clear explanations of complex topics.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Vsauce",
+    "Type": "YouTube Channel",
+    "Category": "Science, Philosophy",
+    "Link": "https://youtube.com/user/Vsauce",
+    "Short Description": "Educational videos exploring scientific and philosophical questions.",
+    "Why it\\\\\\\"s useful for students": "Highly rated resource with a score of 79. Thought-provoking content that encourages critical thinking.",
+    "Access type": "Free"
+  },
+  {
+    "Title/Name": "Learning Directory",
+    "Type": "Directory",
+    "Category": "General Education",
+    "Link": "https://gtscholars.org/learning-directory",
+    "Short Description": "250+ FREE Online Learning Resources & websites, curated by teachers and parents around the world.",
+    "Why it\\\\\\\"s useful for students": "Comprehensive directory of free learning resources curated by educators.",
+    "Access type": "Free"
+  }
+]
